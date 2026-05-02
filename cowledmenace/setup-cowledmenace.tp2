@@ -1271,7 +1271,7 @@ BEGIN @6 DESIGNATED 3010 SUBCOMPONENT @5
 				timing = 0
 				power = 4
 				resist_dispel = 3
-				duration = 108
+				duration = 2400
 				parameter2 = 1
 				STR_VAR
 				insert_point = 1
@@ -1283,7 +1283,7 @@ BEGIN @6 DESIGNATED 3010 SUBCOMPONENT @5
 				timing = 0
 				power = 4
 				resist_dispel = 3
-				duration = 108
+				duration = 2400
 				parameter2 = 1
 				STR_VAR
 				insert_point = 1
