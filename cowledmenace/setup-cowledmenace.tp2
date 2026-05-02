@@ -260,10 +260,10 @@ ASK_EVERY_COMPONENT                                                             
 		PATCH_IF SOURCE_SIZE > 0x28f BEGIN
 			LPF fj_are_structure
   				INT_VAR
- 				fj_loc_x      = 801
- 				fj_loc_y      = 659
- 				fj_dest_loc_x  = 801
-	 			fj_dest_loc_y  = 659
+ 				fj_loc_x      = 809
+ 				fj_loc_y      = 651
+ 				fj_dest_loc_x  = 809
+	 			fj_dest_loc_y  = 651
    				fj_animation    = 0x6211 // mage female elf  
 				fj_orientation  = 2   // SW
 	 			STR_VAR
@@ -271,17 +271,12 @@ ASK_EVERY_COMPONENT                                                             
  				fj_name      = Zallanora
  				fj_cre_resref  = dx#zalla
 			END
-		END
-	BUT_ONLY
-	
-	COPY_EXISTING ~ar0069.are~ ~override~ // Cutscene Area
-		PATCH_IF SOURCE_SIZE > 0x28f BEGIN
 			LPF fj_are_structure
   				INT_VAR
- 				fj_loc_x      = 920
- 				fj_loc_y      = 747
- 				fj_dest_loc_x  = 920
-	 			fj_dest_loc_y  = 747
+ 				fj_loc_x      = 928
+ 				fj_loc_y      = 739
+ 				fj_dest_loc_x  = 928
+	 			fj_dest_loc_y  = 739
    				fj_animation    = 0x6210 // mage female elf 
 				fj_orientation  = 2   // SW
 	 			STR_VAR
@@ -291,6 +286,7 @@ ASK_EVERY_COMPONENT                                                             
 			END
 		END
 	BUT_ONLY
+	
 
 // Add a Twisted Rune enclave in Umar Hills
 
@@ -1226,6 +1222,7 @@ BEGIN @4 DESIGNATED 3000
 // Use pre-EE Spell Deflection Globe (EE only)
 ////////////////////////////////////////////////////////////////////////////////////////////
 
+
 	// Only for Spell Trap
 
 BEGIN @6 DESIGNATED 3010 SUBCOMPONENT @5
@@ -1233,53 +1230,72 @@ BEGIN @6 DESIGNATED 3010 SUBCOMPONENT @5
 	REQUIRE_PREDICATE (ENGINE_IS ~bg2ee~) @51
 
 	COPY ~cowledmenace/SpellTrap/dx#trap.bam~     ~override~
-	COPY ~cowledmenace/SpellTrap/dx#strap.vvc~     ~override~
-
-	ACTION_FOR_EACH spl IN ~spwi902.spl~ ~staf11.spl~
-	BEGIN
-		ACTION_IF FILE_EXISTS_IN_GAME ~%spl%~ BEGIN
-			COPY_EXISTING ~%spl%~ ~override~
-				LPF ADD_SPELL_EFFECT 
-					INT_VAR 
-					opcode = 215
-					target = 1
-					timing = 1
-					power = 4
-					resist_dispel = 3
-					parameter2 = 1
-					STR_VAR
-					insert_point = 1
-					resource = dx#strap 
-				END
-			BUT_ONLY
-		END
+	COPY ~cowledmenace/SpellTrap/dx#strap.vvc~     ~override~ 
+	
+	ACTION_IF FILE_EXISTS_IN_GAME ~spwi902.spl~ BEGIN
+		COPY_EXISTING ~spwi902.spl~ ~override~ 			// Spell Trap
+			LPF ADD_SPELL_EFFECT 
+				INT_VAR 
+				opcode = 291				// Disable EE spell effect
+				target = 1
+				timing = 0
+				power = 4
+				resist_dispel = 3
+				duration = 108
+				parameter2 = 1
+				STR_VAR
+				insert_point = 1
+			END
+			LPF ADD_SPELL_EFFECT 
+				INT_VAR 
+				opcode = 215				// Add pre-EE spell effect
+				target = 1
+				timing = 0
+				power = 4
+				resist_dispel = 3
+				duration = 108
+				parameter2 = 1
+				STR_VAR
+				insert_point = 1
+				resource = dx#strap 
+			END
+		BUT_ONLY
 	END
-
+	
+	ACTION_IF FILE_EXISTS_IN_GAME ~staf11.spl~ BEGIN
+		COPY_EXISTING ~staf11.spl~ ~override~		// Spell Trap (Staff of the Magi)
+			LPF ADD_SPELL_EFFECT 
+				INT_VAR 
+				opcode = 291				// Disable EE spell effect
+				target = 1
+				timing = 0
+				power = 4
+				resist_dispel = 3
+				duration = 108
+				parameter2 = 1
+				STR_VAR
+				insert_point = 1
+			END
+			LPF ADD_SPELL_EFFECT 
+				INT_VAR 
+				opcode = 215				// Add pre-EE spell effect
+				target = 1
+				timing = 0
+				power = 4
+				resist_dispel = 3
+				duration = 108
+				parameter2 = 1
+				STR_VAR
+				insert_point = 1
+				resource = dx#strap 
+			END
+		BUT_ONLY
+	END
+	
+	
 	// For all of them
-
+	
 BEGIN @7 DESIGNATED 3020 SUBCOMPONENT @5
 
-	REQUIRE_PREDICATE (ENGINE_IS ~bg2ee~) @51
+	COPY ~cowledmenace/SpellTrap/SPMAGGLO.bam~     ~override~    		// Fully replace EE spell effect with pre-EE spell effect for all spells using that effect
 
-	COPY ~cowledmenace/SpellTrap/dx#trap.bam~     ~override~
-	COPY ~cowledmenace/SpellTrap/dx#strap.vvc~     ~override~
-
-	ACTION_FOR_EACH spl IN ~spwi902.spl~ ~spwi318.spl~ ~spwi618.spl~ ~staf11.spl~ ~spin710.spl~
-	BEGIN
-		ACTION_IF FILE_EXISTS_IN_GAME ~%spl%~ BEGIN
-			COPY_EXISTING ~%spl%~ ~override~
-				LPF ADD_SPELL_EFFECT 
-					INT_VAR 
-					opcode = 215
-					target = 1
-					timing = 1
-					power = 4
-					resist_dispel = 3
-					parameter2 = 1
-					STR_VAR
-					insert_point = 1
-					resource = dx#strap 
-				END
-			BUT_ONLY
-		END
-	END
