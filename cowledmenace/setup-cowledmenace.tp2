@@ -18,7 +18,7 @@ ASK_EVERY_COMPONENT                                                             
 //	LANGUAGE ~Russian (by Ulpian)~ ~Russian~ ~cowledmenace/lang/russian/russian.tra~															 
 	LANGUAGE ~Simplified Chinese~ ~schinese~ ~cowledmenace/lang/schinese/setup.tra~
 //	LANGUAGE ~Italian (translation: threetimesdavey)~ ~Italian~ ~cowledmenace/lang/italian/italian.tra~
-//	LANGUAGE ~Polish (by my_summertime, SoM Membress, part of CoB Clan)~ ~polish~ ~cowledmenace/lang/polish/polish.tra~
+	LANGUAGE ~Polish (by my_summertime, SoM Membress, part of CoB Clan)~ ~polish~ ~cowledmenace/lang/polish/polish.tra~
 
 //////////////////////////////////////////////////////////////////////////
 // Main Component - The Cowled Menace
