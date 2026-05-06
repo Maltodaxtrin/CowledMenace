@@ -6,7 +6,7 @@
 
 BACKUP ~cowledmenace/backup~
 AUTHOR ~Daxtreme at http://gibberlings3.net~  
-VERSION ~2.0.0~
+VERSION ~2.0.2~
 
 ALWAYS
 	INCLUDE ~cowledmenace/common.tpa~
@@ -16,9 +16,9 @@ ASK_EVERY_COMPONENT                                                             
 	LANGUAGE ~English~ ~english~ ~cowledmenace/lang/english/english.tra~
 	LANGUAGE ~French~ ~french~ ~cowledmenace/lang/french/french.tra~
 //	LANGUAGE ~Russian (by Ulpian)~ ~Russian~ ~cowledmenace/lang/russian/russian.tra~															 
-//	LANGUAGE ~Simplified Chinese (translation: Lewis Liu)~ ~schinese~ ~cowledmenace/lang/schinese/schinese.tra~
+	LANGUAGE ~Simplified Chinese~ ~schinese~ ~cowledmenace/lang/schinese/setup.tra~
 //	LANGUAGE ~Italian (translation: threetimesdavey)~ ~Italian~ ~cowledmenace/lang/italian/italian.tra~
-//	LANGUAGE ~Polish (by my_summertime, SoM Membress, part of CoB Clan)~ ~polish~ ~cowledmenace/lang/polish/polish.tra~
+	LANGUAGE ~Polish (by my_summertime, SoM Membress, part of CoB Clan)~ ~polish~ ~cowledmenace/lang/polish/polish.tra~
 
 //////////////////////////////////////////////////////////////////////////
 // Main Component - The Cowled Menace

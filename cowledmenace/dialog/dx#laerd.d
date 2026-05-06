@@ -246,7 +246,7 @@ CHAIN dx#laerd part2
 	@802 // I have been watching their every move for a while now. Although I missed a part of it, this meeting going on confirmed what I feared: that the Twisted Rune are active, and expanding.
 	== dx#laerd @803 // Then you appeared and just blasted them off to dust. While I can't approve of your methods, I suppose their deaths can hardly be seen as a negative in the long run.
 	END
-	++ @811 EXTERN dx#laerd 840 // Well, I'm afraid there's more to the story. Apparently they have a contact in the Cowled Wizards who is working with them. This is looking like quite the conspiracy.
+	++ @811 EXTERN dx#laerd 820 // Well, I'm afraid there's more to the story. Apparently they have a contact in the Cowled Wizards who is working with them. This is looking like quite the conspiracy.
 
 CHAIN dx#laerd 820
 	@820 // The Cowled Wizards? Hmm, this is far from ideal.
