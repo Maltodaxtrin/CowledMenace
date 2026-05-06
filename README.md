@@ -40,6 +40,8 @@ Alternatively the files can be extracted from the archive using WinRAR. If prope
 
 Please run **setup-cowledmenace.exe** in your BG2 folder to reinstall, uninstall, or otherwise change components.
 
+Cowled Menace is available in English, French, Simplified Chinese, and Polish
+
 ## Components
 
 **Main Component - The Cowled Menace**
@@ -113,6 +115,12 @@ You are allowed to submit [maintenance updates](MAINTENANCE-NOTICE.md) for this 
 This Modification is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC. This mod is also not developed, supported, or endorsed by BioWare, Black Isle Studios, Interplay Entertainment Corp., Overhaul Games or Beamdog. All other trademarks and copyrights are property of their respective owners.
 
 ## Version History
+
+2.0.2 -- Small fix, translations
+
+- Fixed a jarring dialogue jump in the ally's first meeting in the Enclave caused by a bad trigger
+- Simplified Chinese translation updated to v2
+- Polish translation updated to v2
 
 2.0.1 -- Small Fix
 
