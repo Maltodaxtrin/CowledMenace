@@ -411,7 +411,7 @@ Weight: 3~
 @900 = ~We meet again, <CHARNAME>.~
 @901 = ~While you were investigating on your own — and succeeding mightily at the task I might add — I have been monitoring the Twisted Rune and their associates.~
 @902 = ~It would seem that their contact in the Cowled Wizards is an elf wizard who goes by the name 'Zallanora'. Does that name sound familar to you? You've spent far more time in Athkatla than I have.~
-@904 = ~Might have met her, not sure. I've might quite a few Cowled Wizards. Very few of them were friendly. Maybe this needs a more aggressive approach.~ // to 960
+@904 = ~Might have met her, not sure. I've met several Cowled Wizards. Very few of them were friendly. Maybe this needs a more aggressive approach.~ // to 960
 @905 = ~That would be one of their leaders. I've already met and confronted her, but sadly, she fled the scene. She didn't leave any clues behind.~ // to 920
 @906 = ~The name doesn't ring a bell. But I might have met her once, in the Graveyard District of Athkatla. A rude elf wizard who knew a lot about me. I will have to find some way to confront her.~ // to 940
 @907 = ~I don't think I've met her in the past. But the Cowled Wizards have representatives in Athkatla. I think I might be able to track her down.~ // to 960

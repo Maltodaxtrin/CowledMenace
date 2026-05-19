@@ -4,6 +4,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("ZallStoneFound","GLOBAL",1)
+		SetGlobal("CowledWarning","GLOBAL",8)
 		EraseJournalEntry(@101)
 		EraseJournalEntry(@102)
 		EraseJournalEntry(@103)

@@ -22,7 +22,7 @@ Now, once you've cleared either one of the Twisted Rune enclaves (you choose whi
 
 If you haven't done so already, your first option is to head to the Twisted Rune enclave you haven't cleared yet, and clear it. Once they are dead, you will again meet Laeral and will now know who among the Cowled Wizards has had dealings with the Twisted Rune. Her name is Zallanora. Laeral will tell you that Zallanora will probably ambush you at some point since you pissed her or her allies off royally. Which leads us to your second option...
 
-Your second option is to investigate the Cowled Wizards directly. You won't get very far by just talking to them in the Council Building, so you really have to fight them until the end so that you get to battle their leaders. How to do this: simply cast spells anywhere outdoors in the city, and battle through their ranks until the bosses come out. You will fight the contact, Zallanora, who will flee. If you have Bribed the Cowled Wizards, Zallanora will instead appear in the Twisted Rune fight accessed in the Umar Hills, making the fight much harder as she is a level 36 wizard with better AI than vanilla. In SCS she is a "standard" level 36 wizard as SCS replaces the AI I gave her. Don't worry, if you've already bribed the Cowled Wizards and done that fight, you can still progress in Chapter 6.
+Your second option is to investigate the Cowled Wizards directly. You won't get very far by just talking to them in the Council Building, so you really have to fight them until the end so that you get to battle their leaders. How to do this: simply cast spells anywhere outdoors in the city, and battle through their ranks until the bosses come out. You will fight the contact, Zallanora, who will flee. If you have Bribed the Cowled Wizards, Zallanora will instead appear in the Twisted Rune fight accessed in the Umar Hills, making the fight much harder as she is a level 36 wizard with better AI than vanilla. In SCS she is a "standard" level 36 wizard as SCS replaces the AI I gave her. Don't worry, if you've bribed the Cowled Wizards after doing that fight, you can still progress in Chapter 6.
 
 You can actually clear the Umar Hills enclave before the Athkatla one if you feel so inclined, as outlined above...
 
@@ -30,11 +30,11 @@ Basically, you can do this stuff out of order if you like.
 
 Regardless of the option you choose, you have to battle Zallanora at some point and have her flee, either in Umar Hills or Athkatla, before you can continue. Paying the spellcasting license also works, but at the cost of skipping one fight overall. Now you simply wait for her to regroup with the Twisted Rune and ambush you.
 
-**Thus, the only (vanilla) way to move forward with the quest at this point is to actually reach chapter 6 and come out of the Underdark.** Unless you somehow can reach Small Teeth Pass, that is. Anyway, that's not possible in vanilla, so chapter 6 it is.
+**Thus, the only (vanilla) way to move forward with the quest at this point is to actually reach chapter 6 and come out of the Underdark.** Unless you somehow can reach Small Teeth Pass, that is. The Tweaks Anthology has a component that opens it before chapter 6. Anyway, that's not possible in vanilla, so chapter 6 it is.
 
 ### Chapter 6+
 
-Now that you're in chapter 6, if you haven't actually cleared both Twisted Rune enclaves yet, now would be the time to do so. Ideally the Cowled Wizards should be either fully dealt with (with Zallanora fleeing), or the spellcasting license purchased. 
+Now that you're in chapter 6, if you haven't actually cleared both Twisted Rune enclaves yet, now would be the time to do so. The Cowled Wizards should also be either fully dealt with (with Zallanora fleeing), or the spellcasting license purchased. 
 
 The next step of the quest will happen in either **Waukeen's Promenade** or **Small Teeth Pass**. In Waukeen's Promenade, go left of the Adventurer's Mart and you will be ambushed by Zallanora, along with elite members of the Twisted Rune. In Small Teeth Pass, the same ambush will happen just south of the area's entrance. Choose the one you want. I provided an alternative for those who don't want to fight in the city due to NPC's being around. Note that if you purchased a spellcasting license and never fought Zallanora before, the Small Teeth Pass ambush is the only way to finish the quest as she won't ambush you in Waukeen's Promenade (for technical reasons).
 
@@ -44,4 +44,4 @@ Once that's done, go to the Graveyard District back in Athkatla, enter the Lower
 
 Good luck ^^
 
-There are other small details scattered throughout, but this is the core of the mod. The gist of fast-forwarding through the quest is: bribe the cowled wizards, go to the Umar Hills Twisted Rune Enclave and clear it (2 birds one stone), progress to Chapter 6, get ambushed by Zallanora, then go back to Graveyard District with her wardstone.
+There are other small details scattered throughout, but this is the core of the mod. The gist of fast-forwarding through the quest is: bribe the cowled wizards, clear both Twisted Rune Enclaves, progress to Chapter 6, get ambushed by Zallanora either in Small Teeth Pass or Waukeen's Promenade, then go back to Graveyard District with her wardstone.
