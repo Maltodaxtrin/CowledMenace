@@ -6,7 +6,7 @@
 
 BACKUP ~cowledmenace/backup~
 AUTHOR ~Daxtreme at http://gibberlings3.net~  
-VERSION ~2.0.2~
+VERSION ~2.0.3~
 
 ALWAYS
 	INCLUDE ~cowledmenace/common.tpa~
@@ -77,6 +77,7 @@ ASK_EVERY_COMPONENT                                                             
 	SAY NAME1 @415
 	COPY ~cowledmenace/spl/DX#WISHD.SPL~ ~override~													// Wish:Nether Disjunction - Remove Magic
 	SAY NAME1 @415
+	COPY ~cowledmenace/spl/DX#FLASH.SPL~ ~override~													// Cutscene flashy
 
 // Add new items in the game
 

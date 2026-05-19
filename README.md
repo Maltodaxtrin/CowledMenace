@@ -26,11 +26,31 @@ Unravel the mysteries of the Twisted Rune and progress beyond fighting the last 
 
 Cowled Menace should be compatible with mostly everything, especially since in v2.0.0 I've changed the way the mod works. Very, very few vanilla assets are used or altered, and if they are, they were altered using maximum compatibility editing practices, as unobtrusive as possible.
 
-Cowled Menace works with Sword Coast Stratagems (SCS) in the sense that it doesn't break things, but I am in need of more testers for this regarding balance. Not sure if the fights are too easy or too hard with it installed.
-
 In general, Cowled Menace should be installed after NPC mods and EET's main component (if using EET), but before Tweaks mods and EET_end. Then SCS last. 
 
 Since v2.0.0, this mod is compatible with the Unofficial Item Pack (v1.0.4 and below aren't)
+
+### SCS
+
+Cowled Menace is compatible with Sword Coast Stratagems (SCS) in the sense that it doesn't break things (I have tested it numerous times), but I am in need of more testers for this regarding balance. Not sure if the fights are too easy or too hard with it installed.
+
+There is one interaction that requires manual intervention and it's if you want the SCS Insane difficulty "HLA's for specific spellcasters in the game" setting to include those from Cowled Menace as well (I recommend it). On difficulties below Insane this isn't relevant, and on Legacy of Bhaal difficulty for that setting, all eligible spellcasters in the game will have HLA's including those from my mod, so no need to do anything. However, if you're indeed playing on SCS Insane or Insane+ difficulty and want the especially powerful spellcasters added by this mod to be able to use HLA's in SoA, you'll need to do a quick edit to a 2da file in SCS **before installing SCS.**
+
+After extracting SCS but before installing it (close the auto-launching exe), go to the SCS mod folder and find the following file in the path: 
+
+> stratagems\mage\hla.2da
+
+Then, once that file is opened in Notepad, add the 3 following lines at the bottom: 
+
+```
+dx#lich1
+dx#lichj
+dx#zalla
+```
+
+You can also remove specific CRE files here from having access to HLA's depending on your preferences.
+
+Then install SCS as normal and those 3 spellcasters from my mod will now have access to their HLA's. Remember to set difficulty in-game properly otherwise they won't use them.
 
 ## Installation
 
@@ -115,6 +135,16 @@ You are allowed to submit [maintenance updates](MAINTENANCE-NOTICE.md) for this 
 This Modification is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC. This mod is also not developed, supported, or endorsed by BioWare, Black Isle Studios, Interplay Entertainment Corp., Overhaul Games or Beamdog. All other trademarks and copyrights are property of their respective owners.
 
 ## Version History
+
+2.0.3 -- Small fixes
+
+- Fixed a bug where the mod's villain would appear again even after getting killed under a specific, uncommon set of circumstances (thanks to rubyFeedback).
+- You are now required to clear all Twisted Rune enclaves before being able to reach the quest's conclusion, for continuity purposes.
+- Fixed a minor missing visual effect in the final cutscene.
+- Slightly extended the ambush timer making generic Rune ambushes a bit less frequent.
+- Returning from the new enclave will return you back outside of the position going in (to prevent unwanted teleportation).
+- Fixed typos.
+- Updated the readme to include steps for SCS Insane players on how to add HLA's to this mod's spellcasters.
 
 2.0.2 -- Small fix, translations
 

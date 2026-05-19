@@ -6,7 +6,9 @@ THEN
 	RESPONSE #100
 		CutSceneId("dx#laera")
 		Wait(1)
-		ForceSpell("dx#shoon",FLASHY_1)
+		ForceSpellRES("DX#FLASH","dx#shoon")
+		SmallWait(9)
+		ActionOverride("dx#demi",ReallyForceSpellRES("DX#FLASH",Myself))
 		Wait(3)
 		ForceSpell("dx#shoon",LONG_VISUAL2)
 END

@@ -4,6 +4,7 @@ IF
 	Entered([PC])
 	!Global("ZallaFlee","GLOBAL",1)
 	!Global("ZallaSpawned","GLOBAL",1)
+	Global("BribedCowled","GLOBAL",1)
 	AreaCheck("AR1700")  // Small Teeth Pass
 	Global("ACH_TWISTED_VICTORY","GLOBAL",1)
 	Global("ACH_TWISTED_VICTORY_2","GLOBAL",1)
@@ -22,9 +23,8 @@ IF
 	Global("ZallaFlee","GLOBAL",1)
 	!Global("ZallaSpawned","GLOBAL",1)
 	AreaCheck("AR1700")  // Small Teeth Pass
-	OR(2)
-		Global("ACH_TWISTED_VICTORY","GLOBAL",1)
-		Global("ACH_TWISTED_VICTORY_2","GLOBAL",1)
+	Global("ACH_TWISTED_VICTORY","GLOBAL",1)
+	Global("ACH_TWISTED_VICTORY_2","GLOBAL",1)
 THEN
 	RESPONSE #100
 		SetGlobal("ZallaSpawned","GLOBAL",1)
@@ -41,9 +41,8 @@ IF
 	!Global("ZallaSpawned","GLOBAL",1)
 	AreaCheck("AR0700")  // Waukeen's Promenade
 	GlobalGT("Chapter","GLOBAL",5)
-	OR(2)
-		Global("ACH_TWISTED_VICTORY","GLOBAL",1)
-		Global("ACH_TWISTED_VICTORY_2","GLOBAL",1)
+	Global("ACH_TWISTED_VICTORY","GLOBAL",1)
+	Global("ACH_TWISTED_VICTORY_2","GLOBAL",1)
 THEN
 	RESPONSE #100
 		SetGlobal("ZallaSpawned","GLOBAL",1)
