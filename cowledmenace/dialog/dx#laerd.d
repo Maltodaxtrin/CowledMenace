@@ -494,7 +494,7 @@ CHAIN dx#rzall 510
 	END
 	
 	IF ~~ 625default
-	SAY @625 // So, this is where we part ways, <CHARNAME>. Today, the world breathes a huge sigh of relief. Nobody knows about it, but we avoided a possible catastrophe down the line.
+	SAY @625 // So, this is where we part ways, <CHARNAME>. Today, the world breathes a huge sigh of relief. Nobody knows about it, but we averted a possible catastrophe down the line.
 	= @626 // Before I leave, I should tell you that I sensed another powerful magical aura emanating from the sarcophagus. No doubt in my mind that a powerful artifact rests in there. I think you should take it. I've had my fill of powerful artifacts for today.
 	= @627 // The next time I see Elminster, I will be sure to recount our exploits! He once said that should Shoon VII be alive today, there would be no peace in our time. And now that I've met him, I would agree.
 	= @630 // I suppose you'll be returning to Athkatla? This is goodbye then. Thank you for your assistance in this matter, and may we meet again under better circumstances.
@@ -515,7 +515,7 @@ CHAIN dx#rzall 510
 	END
 	
 	IF ~~ 625gold
-	SAY @625 // So, this is where we part ways, <CHARNAME>. Today, the world breathes a huge sigh of relief. Nobody knows about it, but we avoided a possible catastrophe down the line.
+	SAY @625 // So, this is where we part ways, <CHARNAME>. Today, the world breathes a huge sigh of relief. Nobody knows about it, but we averted a possible catastrophe down the line.
 	= @626 // Before I leave, I should tell you that I sensed another powerful magical aura emanating from the sarcophagus. No doubt in my mind that a powerful artifact rests in there. I think you should take it. I've had my fill of powerful artifacts for today.
 	= @627 // The next time I see Elminster, I will be sure to recount our exploits! He once said that should Shoon VII be alive today, there would be no peace in our time. And now that I've met him, I would agree.
 	= @630 // I suppose you'll be returning to Athkatla? This is goodbye then. Thank you for your assistance in this matter, and may we meet again under better circumstances.
