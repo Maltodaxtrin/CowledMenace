@@ -341,7 +341,7 @@ CHAIN dx#shd 427
 	== dx#laerd @435 // Not so fast, your highness. You seem to have overlooked one detail in what looks like quite the impervious plan.
 	== dx#laerd @440 // For all your cunning, there is something you haven't envisioned: I am a Chosen of Mystra, the goddess of magic herself, and among all her Chosen... I am the most proficient with magical items and artifacts.
 	== dx#laerd @441 // This Tome of the Unicorn, I know of it, and I can feel its presence. It's right here, in your sarcophagus.
-	== dx#laerd @442 // It is an object of gigantic power, its magic absolutely can't be reversed. But the Tome in itself, not its magic, is not impervious to harm. You said it yourself — your plan is to overpower it eventually.
+	== dx#laerd @442 // It is an object of immense power, its magic absolutely can't be reversed. But the Tome in itself, not its magic, is not impervious to harm. You said it yourself — your plan is to overpower it eventually.
 	== dx#laerd @443 // As are all such artifacts, this Tome's magical power is imbued from the Weave, and I wield the Silver Fire of Mystra. If she lends me her will, I could perhaps destroy the tome, and thus, reverse its magic by virtue of it being destroyed.
 	END
 	IF ~~ EXTERN dx#shd 450
