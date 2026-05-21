@@ -72,7 +72,7 @@ CHAIN dx#laerd 1155
 CHAIN IF ~NumTimesTalkedTo(0) Global("LaeralSpawned","GLOBAL",1) !AreaCheck("DX#002")~ THEN dx#laerd 2ndtime
 	@900 // We meet again, <CHARNAME>.
 	== dx#laerd @901 // While you were investigating on your own — and succeeding mightily at the task I might add — I have been monitoring the Twisted Rune and their associates.
-	== dx#laerd @902 // It would seem that their contact in the Cowled Wizards is an elf wizard who goes by the name 'Zallanora'. Does that name sound familar to you? You've spent far more time in Athkatla than I have.
+	== dx#laerd @902 // It would seem that their contact in the Cowled Wizards is an elf wizard who goes by the name 'Zallanora'. Does that name sound familiar to you? You've spent far more time in Athkatla than I have.
 	END
 	+ ~Global("ZallaFlee","GLOBAL",1)~ + @905 EXTERN dx#laerd 920 // That would be one of their leaders. I've already met and confronted her, but sadly, she fled the scene. She didn't leave any clues behind.
 	+ ~Global("ZallaIntro","GLOBAL",1) GlobalLT("ZallaFlee","GLOBAL",1)~ + @906 EXTERN dx#laerd 940 // The name doesn't ring a bell. But I might have met her once, in the Graveyard District of Athkatla. A rude elf wizard who knew a lot about me. I will have to find some way to confront her.

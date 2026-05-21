@@ -10,7 +10,7 @@ Updated to reflect v2.0.0
 
 Start by going into the Graveyard District, top-right corner. You will meet someone there.
 
-Those of you who are familar with the Twisted Rune will already know how to enter the Twisted Rune area, but here's how you normally progress through the quest: 
+Those of you who are familiar with the Twisted Rune will already know how to enter the Twisted Rune area, but here's how you normally progress through the quest: 
 
 During the Tanner quest you will find a letter pointing to Umar Hills, where a shady seller awaits a secret word. Going there and interacting with him, his name is Fael, you learn that he is affiliated with the Twisted Rune if you cross him. What we learn from this is that there is a Twisted Rune affiliated-agent in Umar Hills, which is the important part. When returning from the Shade Lord's temple, you will have a Rogue Stone in your inventory (Merella had one on her... clearly she was onto Fael before the Shade Lord got to her). It will start glowing and vibrating in the Umar Hills town, indicating that something is up. Much like the Enclave in the Bridge District (see right below), a Rogue Stone allows you to access, well, a Twisted Rune enclave. But one that's different from the one in the Bridge District, with different actors. I actually think this one is slightly easier so definitely try it before the one in the Bridge District. The entrance is located just west of the Inn, on the other side of the cliffs next to the road leading out of the area. Enter and clear it (if you can).
 
