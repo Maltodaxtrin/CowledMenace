@@ -319,7 +319,7 @@ CHAIN dx#shd 370
 	== dx#shd @373 // They were lining up. A new experience for me, as you surely suspect. Before long, I was climbing in the ranks without it looking out of place. I nearly had both the Cowled Wizards and Twisted Rune under my control, until you came along.
 	== dx#laerd @374 // You are disgusting, every bit as vile as the legends told. Why are you telling us this? What do you stand to gain?
 	== dx#shd @380 // Frankly, it is quite liberating to collapse the layers of lies and utter the truth... for once. Besides young Zallanora here who can't comprehend a word I tell her, you are the only beings in the realms who know of my story. I enjoyed that.
-	== dx#shd @381 // But more than that, none of this matters to me now. You cannot kill my spirit any more than you can save her. I am cursed to remain in this state until the Tome's magic finally becomes weak enough for me to overpower it. Or an event like the Times of Troubles happens again and wipes out the tome's power.
+	== dx#shd @381 // But more than that, none of this matters to me now. You cannot kill my spirit any more than you can save her. I am cursed to remain in this state until the Tome's magic finally becomes weak enough for me to overpower it. Or an event like the Times of Troubles happens again and wipes out the Tome's power.
 	== dx#shd @382 // It could be centuries from now. Or millenia... I will then resume my project, carefully crafted from a near-eternity of planning. And neither of you will be able to stop it, for you will both be long dead by now. Yes, I will outlast even you, Laeral. I have outlived you and all of your sisters thus far.
 	END
 	++ @385 EXTERN dx#shd 420 // What if I just killed you, right here, right now?
