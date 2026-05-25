@@ -72,7 +72,7 @@ CHAIN dx#laerd 1155
 CHAIN IF ~NumTimesTalkedTo(0) Global("LaeralSpawned","GLOBAL",1) !AreaCheck("DX#002")~ THEN dx#laerd 2ndtime
 	@900 // We meet again, <CHARNAME>.
 	== dx#laerd @901 // While you were investigating on your own — and succeeding mightily at the task I might add — I have been monitoring the Twisted Rune and their associates.
-	== dx#laerd @902 // It would seem that their contact in the Cowled Wizards is an elf wizard who goes by the name 'Zallanora'. Does that name sound familar to you? You've spent far more time in Athkatla than I have.
+	== dx#laerd @902 // It would seem that their contact in the Cowled Wizards is an elf wizard who goes by the name 'Zallanora'. Does that name sound familiar to you? You've spent far more time in Athkatla than I have.
 	END
 	+ ~Global("ZallaFlee","GLOBAL",1)~ + @905 EXTERN dx#laerd 920 // That would be one of their leaders. I've already met and confronted her, but sadly, she fled the scene. She didn't leave any clues behind.
 	+ ~Global("ZallaIntro","GLOBAL",1) GlobalLT("ZallaFlee","GLOBAL",1)~ + @906 EXTERN dx#laerd 940 // The name doesn't ring a bell. But I might have met her once, in the Graveyard District of Athkatla. A rude elf wizard who knew a lot about me. I will have to find some way to confront her.
@@ -316,11 +316,11 @@ CHAIN dx#shd 370
 	@370 // It took me ten years to be able to properly control it. To shape magical energy with the same proficiency I was used to. And I was incredibly proficient, as you may have noticed from our battles.
 	== dx#shd @371 // With a new body came new vigor. And ambition. I resumed my plans from centuries ago... to control all of the Sword Coast, in the shadows.
 	== dx#shd @372 // It turns out not much had changed with the world during my centuries of absence. Suitors would rush from all over to "teach" a young and overly eager female apprentice such as myself. Gaining influence among them was a laughingly easy task.
-	== dx#shd @373 // They were lining up. A new experience for me, as you surely suspect. Without long, I was climbing in the ranks without it looking out of place. I nearly had both the Cowled Wizards and Twisted Rune under my control, until you came along.
+	== dx#shd @373 // They were lining up. A new experience for me, as you surely suspect. Before long, I was climbing in the ranks without it looking out of place. I nearly had both the Cowled Wizards and Twisted Rune under my control, until you came along.
 	== dx#laerd @374 // You are disgusting, every bit as vile as the legends told. Why are you telling us this? What do you stand to gain?
 	== dx#shd @380 // Frankly, it is quite liberating to collapse the layers of lies and utter the truth... for once. Besides young Zallanora here who can't comprehend a word I tell her, you are the only beings in the realms who know of my story. I enjoyed that.
-	== dx#shd @381 // But more than that, none of this matters to me now. You cannot kill my spirit any more than you can save her. I am cursed to remain in this state until the Tome's magic finally becomes weak enough for me to overpower it. Or an event like the Times of Troubles happens again and wipes out the tome's power.
-	== dx#shd @382 // It could be centuries from now. Or millenia... I will then resume my project, carefully crafted from a near-eternity of planning. And neither of you will be able to stop it, for you will both be long dead by now. Yes, I will outlast even you, Laeral. I have outlived you and all of your sisters thus far.
+	== dx#shd @381 // But more than that, none of this matters to me now. You cannot kill my spirit any more than you can save her. I am cursed to remain in this state until the Tome's magic finally becomes weak enough for me to overpower it. Or an event like the Times of Troubles happens again and wipes out the Tome's power.
+	== dx#shd @382 // It could be centuries from now. Or millenia... I will then resume my project, carefully crafted from a near-eternity of planning. And neither of you will be able to stop it, for you will both be long dead by then. Yes, I will outlast even you, Laeral. I have outlived you and all of your sisters thus far.
 	END
 	++ @385 EXTERN dx#shd 420 // What if I just killed you, right here, right now?
 	++ @386 EXTERN dx#shd 430 // Well then, good riddance if you ask me. I don't care what you do a thousand years from now to be honest.     
@@ -341,7 +341,7 @@ CHAIN dx#shd 427
 	== dx#laerd @435 // Not so fast, your highness. You seem to have overlooked one detail in what looks like quite the impervious plan.
 	== dx#laerd @440 // For all your cunning, there is something you haven't envisioned: I am a Chosen of Mystra, the goddess of magic herself, and among all her Chosen... I am the most proficient with magical items and artifacts.
 	== dx#laerd @441 // This Tome of the Unicorn, I know of it, and I can feel its presence. It's right here, in your sarcophagus.
-	== dx#laerd @442 // It is an object of gigantic power, its magic absolutely can't be reversed. But the Tome in itself, not its magic, is not impervious to harm. You said it yourself — your plan is to overpower it eventually.
+	== dx#laerd @442 // It is an object of immense power, its magic absolutely can't be reversed. But the Tome in itself, not its magic, is not impervious to harm. You said it yourself — your plan is to overpower it eventually.
 	== dx#laerd @443 // As are all such artifacts, this Tome's magical power is imbued from the Weave, and I wield the Silver Fire of Mystra. If she lends me her will, I could perhaps destroy the tome, and thus, reverse its magic by virtue of it being destroyed.
 	END
 	IF ~~ EXTERN dx#shd 450
@@ -494,7 +494,7 @@ CHAIN dx#rzall 510
 	END
 	
 	IF ~~ 625default
-	SAY @625 // So, this is where we part ways, <CHARNAME>. Today, the world breathes a huge sigh of relief. Nobody knows about it, but we avoided a possible catastrophe down the line.
+	SAY @625 // So, this is where we part ways, <CHARNAME>. Today, the world breathes a huge sigh of relief. Nobody knows about it, but we averted a possible catastrophe down the line.
 	= @626 // Before I leave, I should tell you that I sensed another powerful magical aura emanating from the sarcophagus. No doubt in my mind that a powerful artifact rests in there. I think you should take it. I've had my fill of powerful artifacts for today.
 	= @627 // The next time I see Elminster, I will be sure to recount our exploits! He once said that should Shoon VII be alive today, there would be no peace in our time. And now that I've met him, I would agree.
 	= @630 // I suppose you'll be returning to Athkatla? This is goodbye then. Thank you for your assistance in this matter, and may we meet again under better circumstances.
@@ -515,7 +515,7 @@ CHAIN dx#rzall 510
 	END
 	
 	IF ~~ 625gold
-	SAY @625 // So, this is where we part ways, <CHARNAME>. Today, the world breathes a huge sigh of relief. Nobody knows about it, but we avoided a possible catastrophe down the line.
+	SAY @625 // So, this is where we part ways, <CHARNAME>. Today, the world breathes a huge sigh of relief. Nobody knows about it, but we averted a possible catastrophe down the line.
 	= @626 // Before I leave, I should tell you that I sensed another powerful magical aura emanating from the sarcophagus. No doubt in my mind that a powerful artifact rests in there. I think you should take it. I've had my fill of powerful artifacts for today.
 	= @627 // The next time I see Elminster, I will be sure to recount our exploits! He once said that should Shoon VII be alive today, there would be no peace in our time. And now that I've met him, I would agree.
 	= @630 // I suppose you'll be returning to Athkatla? This is goodbye then. Thank you for your assistance in this matter, and may we meet again under better circumstances.
