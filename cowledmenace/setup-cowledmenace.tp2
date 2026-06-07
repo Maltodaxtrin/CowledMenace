@@ -708,6 +708,8 @@ ASK_EVERY_COMPONENT                                                             
   		PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN
   			WRITE_LONG 0x14 51000																	// 6,000 XP --> 51,000 XP  since she is level 36
 			WRITE_BYTE 0x234 0x24																	// Level 30 --> Level 36 (Lore-Accurate level)
+			WRITE_SHORT 0x24 150																	// 150 hp
+			WRITE_SHORT 0x26 150																	// 150 hp
 			WRITE_LONG 0x244 0x10000000																// Change Kit from Conjurer to Necromancer
 			WRITE_ASCII 0x248 ~dx#zallo~ #8															// New override script
 			WRITE_ASCII 0x250 ~mage18z~ #8															// Class Script, keeps same name because of potential SCS replacement
