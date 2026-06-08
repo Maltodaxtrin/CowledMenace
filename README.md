@@ -46,7 +46,7 @@ Since v2.0.0, this mod is compatible with the Unofficial Item Pack (v1.0.4 and b
 
 Cowled Menace is compatible with Sword Coast Stratagems (SCS) in the sense that SCS doesn't break things (I have tested it numerous times), but I am not sure if the fights are too easy or too hard with it installed.
 
-If you want "HLA's for specific spellcasters in the game" setting to include those from Cowled Menace as well (I recommend it since they are indeed worthy of them lore-wise), I made a tweak for it located [here - Dax Tweaks](https://github.com/Maltodaxtrin/Dax-Tweaks#components). Install it and now the spellcasters from Cowled Menace will hurl planetars at you on Insane difficulty, as intended (of course). If it ain't a planetar, it's gonna be a Comet or a Dragon's Breath. Good times!
+If you want "HLA's for specific spellcasters in the game" setting to include those from Cowled Menace as well (I recommend it since they are indeed worthy of them lore-wise), I made a tweak for it located [here - Dax Tweaks](https://github.com/Maltodaxtrin/Dax-Tweaks#components). Install it and now some of the spellcasters from Cowled Menace (3 to be exact) will be able to hurl planetars at you on Insane difficulty, as intended (of course). If it ain't a planetar, it's gonna be a Comet or a Dragon's Breath. Good times!
 
 Why isn't this tweak included in the main Cowled Menace mod? Because the tweak needs to be installed after SCS, while Cowled Menace is installed way earlier (after NPC mods). 
 
