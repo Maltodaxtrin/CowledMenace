@@ -44,25 +44,11 @@ Since v2.0.0, this mod is compatible with the Unofficial Item Pack (v1.0.4 and b
 
 ### SCS
 
-Cowled Menace is compatible with Sword Coast Stratagems (SCS) in the sense that it doesn't break things (I have tested it numerous times), but I am not sure if the fights are too easy or too hard with it installed.
+Cowled Menace is compatible with Sword Coast Stratagems (SCS) in the sense that SCS doesn't break things (I have tested it numerous times), but I am not sure if the fights are too easy or too hard with it installed.
 
-There is one interaction that requires manual intervention and it's if you want the SCS Insane difficulty "HLA's for specific spellcasters in the game" setting to include those from Cowled Menace as well (I recommend it). On difficulties below Insane this isn't relevant, and on Legacy of Bhaal difficulty for that setting, all eligible spellcasters in the game will have HLA's including those from my mod, so no need to do anything. However, if you're indeed playing on SCS Insane or Insane+ difficulty and want the especially powerful spellcasters added by this mod to be able to use HLA's in SoA, you'll need to do a quick edit to a 2da file in SCS **before installing SCS.**
+If you want "HLA's for specific spellcasters in the game" setting to include those from Cowled Menace as well (I recommend it since they are indeed worthy of them lore-wise), I made a tweak for it located [here - Dax Tweaks](https://github.com/Maltodaxtrin/Dax-Tweaks#components). Install it and now the spellcasters from Cowled Menace will hurl planetars at you on Insane difficulty, as intended (of course). If it ain't a planetar, it's gonna be a Comet or a Dragon's Breath. Good times!
 
-After extracting SCS but before installing it (close the auto-launching exe), go to the SCS mod folder and find the following file in the path: 
-
-> stratagems\mage\hla.2da
-
-Then, once that file is opened in Notepad, add the 3 following lines at the bottom: 
-
-```
-dx#lich1
-dx#lichj
-dx#zalla
-```
-
-You can also remove specific CRE files here from having access to HLA's depending on your preferences.
-
-Then install SCS as normal and those 3 spellcasters from my mod will now have access to their HLA's. Remember to set difficulty in-game properly, otherwise they won't use them.
+Why isn't this tweak included in the main Cowled Menace mod? Because the tweak needs to be installed after SCS, while Cowled Menace is installed way earlier (after NPC mods). 
 
 ## Installation
 
