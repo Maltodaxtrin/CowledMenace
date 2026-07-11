@@ -17,7 +17,8 @@ CHAIN IF ~NumTimesTalkedTo(1) Global("ZallComing2","dx#001",1)~ THEN dx#dalid th
 	== JAHEIRAJ IF ~InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @2075 // I doubt any would weep if Amn was free of the influence of such an evil organization.
 	== WILSONJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @2071 // *Roars viciously*
 	== dx#zalla @305	// <CHARNAME>, today is the day you die.
-	DO ~StartCutScene("dx#cut02")~
+	DO ~CreateCreatureObjectEffect("MAGE18Z","SPROTECT","dx#zalla")
+		StartCutScene("dx#cut02")~
 	EXIT
 
 CHAIN IF ~NumTimesTalkedTo(1) GlobalLT("ZallComing2","dx#001",1)~ THEN dx#dalid theydont
@@ -34,8 +35,9 @@ CHAIN IF ~NumTimesTalkedTo(1) GlobalLT("ZallComing2","dx#001",1)~ THEN dx#dalid 
 	== ANOMENJ IF ~Alignment("Anomen",CHAOTIC_NEUTRAL) InParty("Anomen") InMyArea("Anomen") !StateCheck("Anomen",CD_STATE_NOTVALID)~ THEN @2154 // You've chanced upon me at a time in my life when I wish to bash things mindlessly, villain, and finally I've a proper target for my rage!
 	== JAHEIRAJ IF ~InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @2075 // I doubt any would weep if Amn was free of the influence of such an evil organization.
 	== WILSONJ IF ~InParty("Wilson") InMyArea("Wilson") !StateCheck("Wilson",CD_STATE_NOTVALID)~ THEN @2071 // *Roars viciously*
-	== dx#zalla @307	// <CHARNAME>, today is the day you die.
-	DO ~StartCutScene("dx#cut02")~
+	== dx#zalla @307	// Today is the day you die.
+	DO ~CreateCreatureObjectEffect("MAGE18Z","SPROTECT","dx#zalla")
+		StartCutScene("dx#cut02")~
 	EXIT
 
 // Introductions
@@ -55,10 +57,14 @@ CHAIN IF ~NumTimesTalkedTo(0)~ THEN dx#dalid d1intro
 	+ ~!Global("BribedCowled","GLOBAL",1)~ + @261 EXTERN dx#lichd ldfight1 // Not sure what's going on exactly, but you seem up to no good. I cannot let such evil walk the realms.
 	+ ~!Global("BribedCowled","GLOBAL",1) Global("ACH_TWISTED_VICTORY","GLOBAL",1)~ + @258 EXTERN dx#lichd ldfight2 // No idea really, this stone here keeps teleporting me around.
 	+ ~!Global("BribedCowled","GLOBAL",1) Global("ACH_TWISTED_VICTORY","GLOBAL",1)~ + @260 EXTERN dx#lichd ldfight2 // So this is another enclave of yours? I know what you're up to. I am piecing it together. I came here to destroy you.
-	+ ~Global("BribedCowled","GLOBAL",1)~ + @255  EXTERN dx#lichd l2 // I don't know. One second I was in the Umar Hills and now I'm here.
-	+ ~Global("BribedCowled","GLOBAL",1)~ + @261  EXTERN dx#lichd l2 // Not sure what's going on exactly, but you seem up to no good. I cannot let such evil walk the realms.
-	+ ~Global("BribedCowled","GLOBAL",1) Global("ACH_TWISTED_VICTORY","GLOBAL",1)~ + @258 EXTERN dx#lichd l3 // No idea really, this stone here keeps teleporting me around.
-	+ ~Global("BribedCowled","GLOBAL",1) Global("ACH_TWISTED_VICTORY","GLOBAL",1)~ + @260 EXTERN dx#lichd l3 // So this is another enclave of yours? I know what you're up to. I am piecing it together. I came here to destroy you.
+	+ ~Global("BribedCowled","GLOBAL",1) !Global("ZallaFlee","GLOBAL",1)~ + @255  EXTERN dx#lichd l2 // I don't know. One second I was in the Umar Hills and now I'm here.
+	+ ~Global("BribedCowled","GLOBAL",1) !Global("ZallaFlee","GLOBAL",1)~ + @261  EXTERN dx#lichd l2 // Not sure what's going on exactly, but you seem up to no good. I cannot let such evil walk the realms.
+	+ ~Global("BribedCowled","GLOBAL",1) Global("ACH_TWISTED_VICTORY","GLOBAL",1) !Global("ZallaFlee","GLOBAL",1)~ + @258 EXTERN dx#lichd l3 // No idea really, this stone here keeps teleporting me around.
+	+ ~Global("BribedCowled","GLOBAL",1) Global("ACH_TWISTED_VICTORY","GLOBAL",1) !Global("ZallaFlee","GLOBAL",1)~ + @260 EXTERN dx#lichd l3 // So this is another enclave of yours? I know what you're up to. I am piecing it together. I came here to destroy you.
+	+ ~Global("BribedCowled","GLOBAL",1) Global("ZallaFlee","GLOBAL",1)~ + @255  EXTERN dx#lichd ldfight1 // I don't know. One second I was in the Umar Hills and now I'm here.
+	+ ~Global("BribedCowled","GLOBAL",1) Global("ZallaFlee","GLOBAL",1)~ + @261  EXTERN dx#lichd ldfight1 // Not sure what's going on exactly, but you seem up to no good. I cannot let such evil walk the realms.
+	+ ~Global("BribedCowled","GLOBAL",1) Global("ACH_TWISTED_VICTORY","GLOBAL",1) Global("ZallaFlee","GLOBAL",1)~ + @258 EXTERN dx#lichd ldfight2 // No idea really, this stone here keeps teleporting me around.
+	+ ~Global("BribedCowled","GLOBAL",1) Global("ACH_TWISTED_VICTORY","GLOBAL",1) Global("ZallaFlee","GLOBAL",1)~ + @260 EXTERN dx#lichd ldfight2 // So this is another enclave of yours? I know what you're up to. I am piecing it together. I came here to destroy you.
 
 CHAIN dx#lichd ldfight1
 	@256 // Whoever you are then, it is your unlucky day. Prepare to incur the wrath of the Twisted Rune.

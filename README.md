@@ -38,15 +38,17 @@ In any case, don't forget to mess with and investigate the Cowled Wizards too, a
 
 Cowled Menace should be compatible with mostly everything, especially since in v2.0.0 I've changed the way the mod works. Very, very few vanilla assets are used or altered, and if they are, they were altered using maximum compatibility editing practices, as unobtrusive as possible.
 
+Please note that Cowled Menace makes use of the vanilla NPC named "Zallanora" (MAGE18Z) a lot, therefore if another mod wishes to use her extensively, there might be a conflict. I have tried to account for it as much as possible (looking at you Unofficial Item Pack - more on that below), but I can't account for everything. If you are a mod author who made a mod using her or are planning to, please contact me so we can work something out. 
+
 In general, Cowled Menace should be installed after NPC mods and EET's main component (if using EET), but before Tweaks mods, EET_end, and SCS. 
 
-Since v2.0.0, this mod is compatible with the Unofficial Item Pack (v1.0.4 and below aren't)
+One exception: Cowled Menace must be installed **after** Unofficial Item Pack because it replaces the 'MAGE18Z' resource entirely which breaks my mod. 
 
 ### SCS
 
 Cowled Menace is compatible with Sword Coast Stratagems (SCS) in the sense that SCS doesn't break things (I have tested it numerous times), but I am not sure if the fights are too easy or too hard with it installed.
 
-If you want select Cowled Menace spellcasters to use HLA's and hurl planetars at you with SCS (I recommend it since they are indeed worthy of them lore-wise), I made a tweak for it located [here - Dax Tweaks](https://github.com/Maltodaxtrin/Dax-Tweaks#components). (Insane+ difficulty only). It's in a tweaks mod instead of Cowled Menace because it has to be installed after SCS (Cowled Menace is installed way before SCS: after NPC mods)
+If you want select Cowled Menace spellcasters to use HLA's and hurl planetars at you with SCS (I recommend it since they are indeed worthy of them lore-wise), I made a tweak for it located [here - Dax Tweaks](https://github.com/Maltodaxtrin/Dax-Tweaks#components). (Insane difficulty only and above). It's in a tweaks mod instead of Cowled Menace because it has to be installed after SCS (Cowled Menace is installed way before SCS: after NPC mods)
 
 ## Installation
 
@@ -70,6 +72,12 @@ Note: This component also increases the XP provided by Cowled Wizards very much 
 
 The other component just right below isn't technically part of the quest, but I recommend installing it anyway.
 
+*(Optional)* **Difficulty add-on - The mod's antagonist can summon a Dark Planetar** (requires Main Component)
+
+With this component active, the mod's villain will summon a Dark Planetar when they feel the time is right (not necessarily right away). Without this component, Energy Drain is cast instead. 
+
+**Note for SCS**: this component doesn't actually do anything if you plan on installing SCS down the line, as SCS fully replaces the AI. To still have the mages of this mod hurl planetars at you with SCS, check out [my Tweaks mod](https://github.com/Maltodaxtrin/Dax-Tweaks) and install it after SCS.
+
 *(Optional)* **Appropriate Rewards for High-Level Spellcasters (recommended)**
 
 A level 14+ wizard awarding 120 xp and running around with a nonmagical quarterstaff and 28 gold pieces makes no sense at all, especially if they teleported in expecting a fight since they would come prepared. This component aims to increase the items worn and dropped by high-level spellcasters in Baldur's Gate 2, specifically targeting the ones who currently drop nothing, or close to nothing. The challenge level of these fights might increase as worn items will provide these spellcasters with various bonuses, but the rewards will be greater to compensate (better loot). The goal is that those encounters make sense.
@@ -86,7 +94,7 @@ COWENF3 - Female Mid-level Cowled Enforcer
 COWENF4 - Female Mid-level Cowled Enforcer
 MAGE18A - Female High-level Cowled Enforcer (Last wave)
 MAGE16C - Female High-level Cowled Enforcer (Last wave)
-MAGE18Z - Zallanora (Cowled Enforcer Boss, Last wave - only if Cowled Menace main component is not installed)
+MAGE18Z - Zallanora (Cowled Enforcer Boss, Last wave) - Different items if Cowled Menace is installed or not.
 HLLAYEN - Layene (Twisted Rune)
 HLSHANG - Shangalar (Twisted Rune)
 HLSION - Sion (Guarded Compound)
@@ -105,7 +113,7 @@ UDTRAP04 - Alchra Diagott (Underdark Trap)
 JARLICH - Deirex the Lich
 LICH01 - Generic Lich from "Spawn Undead" script
 AMLICH01 - Vongoethe (Amkethran - ToB)
-DX#ZALLA - Zallanora (My version of Zallanora for Cowled Menace - only if Cowled Menace main component is installed)
+DX#ZALLA - Zallanora (Another Zallanora for Cowled Menace - only if Cowled Menace main component is installed) Why another? Install the mod and find out!
 DX#RUNEW - Twisted Rune Mage (only if Cowled Menace main component is installed)
 DX#DALID - Twisted Rune - Dalina (only if Cowled Menace main component is installed)
 DX#LICHD - Twisted Rune - Kartak Spellseer (only if Cowled Menace main component is installed)
@@ -153,18 +161,20 @@ This Modification is unofficial Fan Content permitted under the Fan Content Poli
 
 2.1.0 -- Major Update (Needs translation update)
 
-- **Added around 150 lines of possible interjections for vanilla NPC's throughout the quest** Every companion has at least 1 line (including Wilson!), although Korgan, Edwin, and Jaheira are the most represented.
+- **Added around 150 lines of possible interjections for vanilla NPC's throughout the quest**. Every companion has at least 1 line (including Wilson!), although Korgan, Edwin, and Jaheira are the most represented.
 - Reworked some of the dialogue at the same time, added new options and replies.
-- Restored the original extended ending dialogue. Not sure why I cut it in the first place. ¯\_(ツ)_/¯
+- Restored the original extended ending dialogue. Not sure why I cut it in the first place. ¯\\\_(ツ)_/¯
+- The real Zallanora now has a simulacrum in the last wave of the Cowled Wizards in the form of the vanilla CRE file, re-purposed. This was added for better compatibility with other mods since the changes in v2.0.0, and also because it's cool as hell (thanks to jastey for the idea). The fight will now be harder as a result. The same is true for the Umar Hills Twisted Rune enclave when certain conditions are met.
 - Further improved the rewards of the new Twisted Rune Enclave (added a powerful new helmet for divine spellcasters).
 - Buffed the items received in the final encounter. 
-- Encounters in general begin faster, to give you less time to cheese them. The final encounter is now instantaneous so it's harder to cheese. It is still possible. It is always possible to cheese in this game. But at least now you can't kill one actor before all others join in (thanks to rubyFeedback).
-- Fixed continuity errors with the journal depending on the order in which you did things.
+- Encounters in general begin faster, to give you less time to cheese them. And they're harder. The final encounter is now instantaneous so it's harder to cheese. It is still possible. It is always possible to cheese in this game. But at least now you can't kill one actor before all others join in (thanks to rubyFeedback).
+- Fixed some continuity errors.
 - Minor script fixes.
+- Minor bug fixes.
 - Fixed various typos, thanks to visionok.
 - Cleaned the code.
-- Some minor modifications to the 2nd component, "Appropriate Items for High-Level Spellcasters". One spellcaster from ToB has been added to the list. The readme has been updated with a list of all affected spellcasters in the game. Additionally, the appropriate XP rewards for Cowled Wizard fix from the main component has also been added to that optional component, which has been renamed to "Appropriate Rewards for High-Level Spellcasters" since it now includes xp as well (cowled wizards only). That's in case you want only that upgrade and not the full mod.
-- Transferred the last 2 optional components over to my Tweaks mod. They were a bit random and there was no link between Cowled Menace and these components, and they are best used in a separate tweaks mod encompassing all my optional tweaks to the game. Suffice to say, I invite you to check out my Tweaks mod as they could be of interest to some.
+- Some minor modifications to the 2nd component, "Appropriate Items for High-Level Spellcasters". One spellcaster from ToB has been added to the list. The readme has been updated with a list of all affected spellcasters in the game. Additionally, the appropriate XP rewards for Cowled Wizard fix from the main component has also been added to that optional component, which has been renamed to "Appropriate Rewards for High-Level Spellcasters" since it now includes xp as well (cowled wizards only). That's in case you want only that upgrade and not the full Cowled Menace mod.
+- Transferred the last 2 optional components over to my Tweaks mod. They were a bit random and there was no link between Cowled Menace and these components, and they are best used in a separate tweaks mod encompassing all my optional tweaks to the game. Suffice to say, I invite you to check out [my Tweaks mod](https://github.com/Maltodaxtrin/Dax-Tweaks) as they could be of interest to you.
 
 2.0.3 -- Small fixes
 

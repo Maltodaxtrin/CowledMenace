@@ -1,5 +1,5 @@
 @0 = ~Main Component~
-
+@1 = ~Optional difficulty add-on | The mod's antagonist can summon a Dark Planetar (Useless with SCS)~
 @2 = ~Appropriate Rewards for High-Level Spellcasters (recommended)~
 
 @50 = ~This component requires Baldur's Gate 2 Enhanced Edition or the Enhanced Edition Trilogy to be installed.~
@@ -96,6 +96,18 @@ While investigating the Cowled Wizards and Twisted Rune business, I met the Arch
 
 It turns out Zallanora wasn't the real one — she had her body switched with an old Lich emperor named Shoon VII during the Times of Troubles. It certainly explains a few things. At least it seems to confirm that "she" was responsible for most of the shady dealings regarding the Cowled Wizards and the Twisted Rune, the latter which have basically left the region now. Apparently Shoon's plan backfired as he hadn't planned I would have a Chosen of Mystra by my side, who could reverse his curse, the one which made him invulnerable. Result: Shoon VII seems to be gone for good, and Zallanora was saved, somehow. Pretty sure the Twisted Rune will leave me alone now.~
 
+@194=~Lost Robes of Alokkair~
+@195=~The robes of the powerful lich Alokkair used in his initial rule of Hlontar, long believed to be lost to history. This powerful mage robe offers protection from all forms of physical attack while at the same time increasing one's Magic Resistance and Saving Throws, in addition to quickening spellcasting prowess.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: 4
+– Magic Resistance: +10%
+– Saving Throws: +1
+– Improves casting speed by 2
+
+Weight: 3~
 @196=~Helm of Inspiration~
 @197=~It is said that moments of distinct inspiration can strike at any time. Perhaps the god themselves are intervening in a follower's moment of triumph. Or a moment of difficulty, requiring particular insight. This helmet serves as a catalyst for that effect. While the helmet's exact powers are still unclear to the nonbelievers, it is sought by followers of many deities for its ability to help focus one's perspective, possibly to achieve enlightenment. 
 
@@ -525,7 +537,7 @@ Weight: 3~
 @905 = ~That would be one of their leaders. I've already met and confronted her, but sadly, she fled the scene. She didn't leave any clues behind.~ // to 920
 @906 = ~The name doesn't ring a bell. But I might have met her once, in the Graveyard District of Athkatla. A rude elf wizard who knew a lot about me. I will have to find some way to confront her.~ // to 940
 @907 = ~I don't think I've met her in the past. But the Cowled Wizards have representatives in Athkatla. I think I might be able to track her down.~ // to 960
-@908 = ~I... already knew that. I literally just faced her. Sadly, she fled the scene, and didn't leave any clues behind.~ // to 920
+@908 = ~I... already knew that. I just faced her. Sadly, she fled the scene, and didn't leave any clues behind.~ // to 920
 
 @910 = ~So that means all of your enemies know about your involvement in their setbacks.~ // to 926
 
@@ -560,6 +572,7 @@ Weight: 3~
 @1009 = ~Elite Rune Assassin~
 @1010 = ~Rune Lich~
 @1011 = ~Zallanora~
+@1012 = ~Zallanora's Simulacrum~
 
 // Crypt
 @1100 = ~Finally, I found you! I knew you'd come here eventually. You are a hard one to track down, <CHARNAME>.~

@@ -1,5 +1,5 @@
 @0 = ~Composant principal~
-
+@1 = ~Difficulté supplémentaire optionnelle | L'antagoniste du mod peut invoquer un Planétaire Sombre (Inutile avec SCS)~
 @2 = ~Récompenses appropriées pour les lanceurs de sorts de haut niveau~
 
 
@@ -96,6 +96,20 @@ En enquêtant sur les Mages cagoulés et la Rune tordue, j'ai rencontré l'Archi
 @150=~La Menace Cagoulée - Conclusion
 
 Il s'avère que Zallanora n'était pas la véritable Zallanora : son corps a été échangé avec celui d'un ancien empereur liche nommé Shoon VII durant les Temps des Troubles. Cela explique bien des choses. Du moins, cela semble confirmer qu'elle était responsable de la plupart des manoeuvres douteuses concernant les Mages cagoulés et la Rune tordue, ces derniers ayant désormais quitté la région. Apparemment, le plan de Shoon s'est retourné contre lui, car il n'avait pas prévu que j'aurais à mes côtés une Élue de Mystra, capable d'annuler sa malédiction, celle qui le rendait invulnérable. Résultat : Shoon VII semble avoir disparu pour de bon, et Zallanora a été sauvée, on ne sait comment. Je suis presque certain que la Rune tordue me laisseront enfin tranquille.~
+
+@194=~Robes perdues d'Alokkair~
+
+@195=~Les robes du puissant Alokkair, portées lors de son premier règne sur Hlontar et longtemps considérées comme perdues à jamais. Cette puissante robe de mage offre une protection contre les attaques physiques, tout en augmentant la résistance magique et les jets de sauvegarde, ainsi qu'en accélérant l'incantation des sorts.
+
+PARAMÈTRES :
+
+Capacités d’équipement :
+– Classe d'armure : 4
+– Résistance magique : +10 %
+– +1 à tous les jets de sauvegarde
+– Augmente la vitesse d'incantation de 2
+
+Poids : 3~
 
 @196=~Casque d'inspiration~
 @197=~On dit que des moments d'inspiration soudaine peuvent survenir à tout moment. Peut-être les dieux eux-mêmes interviennent-ils lors d'un triomphe ou d'une épreuve, exigeant une perspicacité particulière. Ce casque agit comme un catalyseur. Si ses pouvoirs exacts demeurent obscurs pour les non-croyants, il est convoité par les fidèles de nombreuses divinités pour sa capacité à favoriser la concentration et, potentiellement, l'éclaircissement. 
@@ -559,6 +573,7 @@ Poids : 3~
 @1009 = ~Assassin elite de la Rune tordue~
 @1010 = ~Liche de la Rune tordue~
 @1011 = ~Zallanora~
+@1012 = ~Simulacre de Zallanora~
 
 // Crypt
 @1100 = ~Enfin, je vous ai trouvé ! Je savais que vous finiriez par venir. vous êtes difficile à retrouver, <CHARNAME>.~

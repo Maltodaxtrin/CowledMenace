@@ -156,8 +156,8 @@ CHAIN IF ~NumTimesTalkedTo(0) Global("LaeralSpawned","GLOBAL",1) !AreaCheck("DX#
 	+ ~Global("ZallaFlee","GLOBAL",1)~ + @905 EXTERN dx#laerd 920 // That would be one of their leaders. I've already met and confronted her, but sadly, she fled the scene. She didn't leave any clues behind.
 	+ ~Global("ZallaIntro","GLOBAL",1) GlobalLT("ZallaFlee","GLOBAL",1)~ + @906 EXTERN dx#laerd 940 // The name doesn't ring a bell. But I might have met her once, in the Graveyard District of Athkatla. A rude elf wizard who knew a lot about me. I will have to find some way to confront her.
 	++ @904 EXTERN dx#laerd 960  // Might have met her, not sure. I've might quite a few Cowled Wizards. Very few of them were friendly. Maybe this needs a more aggressive approach.
-	++ @907 EXTERN dx#laerd 960  // I don't think I've met her in the past. But the Cowled Wizards have representatives in Athkatla, I think I might be able to track her down.
-	+ ~Global("ZallaFlee","GLOBAL",1) Global("BribedCowled","GLOBAL",1) AreaCheck("dx#001")~ + @908 EXTERN dx#laerd 910 // I... already knew that. I literally just faced her. Sadly, she fled the scene, and didn't leave any clues behind.
+	+ ~!Global("ZallaIntro","GLOBAL",1) GlobalLT("ZallaFlee","GLOBAL",1)~ + @907 EXTERN dx#laerd 960  // I don't think I've met her in the past. But the Cowled Wizards have representatives in Athkatla, I think I might be able to track her down.
+	+ ~Global("ZallaFlee","GLOBAL",1) Global("BribedCowled","GLOBAL",1) AreaCheck("dx#001")~ + @908 EXTERN dx#laerd 910 // I... already knew that. I just faced her. Sadly, she fled the scene, and didn't leave any clues behind.
 
 CHAIN dx#laerd 910
 	@910 // So that means all of your enemies know about your involvement in their setbacks.
@@ -343,7 +343,7 @@ CHAIN dx#laerd edwind
 	== EDWINJ IF ~Gender("Edwin",FEMALE)~ THEN @2206// (Oh I HATE this predicament! And this... place! And this body!) 
 	== dx#laerd @787 // I reckon this is not the last I will hear of you, Red Wizard, despite all this. For now I'll simply tolerate your presence. Anyway, back to business.
 	END
-	++ @722 EXTERN dx#laerd part2 // How come one of the Seven Sisters got involved with the Twisted Rune? Have they ever acted against you?
+	IF ~~ EXTERN dx#laerd part2
 
 // Elminster section
 
