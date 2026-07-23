@@ -116,7 +116,7 @@ AMLICH01 - Vongoethe (Amkethran - ToB)
 DX#ZALLA - Zallanora (Another Zallanora for Cowled Menace - only if Cowled Menace main component is installed) Why another? Install the mod and find out!
 DX#RUNEW - Twisted Rune Mage (only if Cowled Menace main component is installed)
 DX#DALID - Twisted Rune - Dalina (only if Cowled Menace main component is installed)
-DX#LICHD - Twisted Rune - Kartak Spellseer (only if Cowled Menace main component is installed)
+DX#LICH1 - Twisted Rune - Kartak Spellseer (only if Cowled Menace main component is installed)
 DX#LICHJ - Twisted Rune - Jymahna (only if Cowled Menace main component is installed)
 DX#LICHT - Twisted Rune Lich (only if Cowled Menace main component is installed)
 DX#GRVMU - Ancient Mummy (Cleric) (only if DaxTweaks component adding this new enemy to the game is installed or will be installed down the line)

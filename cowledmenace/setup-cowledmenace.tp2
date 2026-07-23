@@ -1130,8 +1130,8 @@ BEGIN @2 DESIGNATED 2100
 		BUT_ONLY
 	END
 
-	ACTION_IF FILE_EXISTS_IN_GAME ~dx#lichd.cre~ BEGIN							// Cowled Menace enemy
-		COPY_EXISTING ~dx#lichd.cre~ ~override~														// Kartak Spellseer
+	ACTION_IF FILE_EXISTS_IN_GAME ~dx#lich1.cre~ BEGIN							// Cowled Menace enemy
+		COPY_EXISTING ~dx#lich1.cre~ ~override~														// Kartak Spellseer
 			ADD_CRE_ITEM ~rndgrp02~ #0 #0 #0 ~none~ ~inv~											// Random trinket
 			ADD_CRE_ITEM ~rndscr04~ #0 #0 #0 ~none~ ~inv~											// Random scroll 4
 			ADD_CRE_ITEM ~RNDSCR05~ #0 #0 #0 ~none~ ~inv~											// Random scroll level 9
