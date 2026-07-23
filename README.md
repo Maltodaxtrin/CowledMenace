@@ -70,11 +70,11 @@ The quest aims to tie up some loose ends concerning the Cowled Wizards and bring
 
 Note: This component also increases the XP provided by Cowled Wizards very much in the same way the "Appropriate XP Rewards for Cowled Enforcers" component from "klatu tweaks and Fixes" does it, as this mod deals with Cowled Wizards quite a bit. So it's unnecessary to install it separately as they do largely the same thing. For those who are unaware why this is needed, most Cowled Wizards in the base game give 120 xp when killed, which makes no sense as they are level 14+ spellcasters. This fix increases their xp reward to 6000. Very compatibility-friendly as it doesn't do anything else to those files except change the XP value. 
 
-The other component just right below isn't technically part of the quest, but I recommend installing it anyway.
+The other components below aren't technically required, but I recommend installing them anyway.
 
 *(Optional)* **Difficulty add-on - The mod's antagonist can summon a Dark Planetar** (requires Main Component)
 
-With this component active, the mod's villain will summon a Dark Planetar when they feel the time is right (not necessarily right away). Without this component, Energy Drain is cast instead. 
+With this component active, the mod's villain will summon a Dark Planetar when they feel the time is right (not necessarily right away). Without this component, an undisclosed level 9 spell is cast instead. 
 
 **Note for SCS**: this component doesn't actually do anything if you plan on installing SCS down the line, as SCS fully replaces the AI. To still have the mages of this mod hurl planetars at you with SCS, check out [my Tweaks mod](https://github.com/Maltodaxtrin/Dax-Tweaks) and install it after SCS.
 
@@ -113,7 +113,7 @@ UDTRAP04 - Alchra Diagott (Underdark Trap)
 JARLICH - Deirex the Lich
 LICH01 - Generic Lich from "Spawn Undead" script
 AMLICH01 - Vongoethe (Amkethran - ToB)
-DX#ZALLA - Zallanora (Another Zallanora for Cowled Menace - only if Cowled Menace main component is installed) Why another? Install the mod and find out!
+DX#ZALLA - Zallanora (Another Zallanora for Cowled Menace - only if Cowled Menace main component is installed) Why another? Play through the mod and find out!
 DX#RUNEW - Twisted Rune Mage (only if Cowled Menace main component is installed)
 DX#DALID - Twisted Rune - Dalina (only if Cowled Menace main component is installed)
 DX#LICH1 - Twisted Rune - Kartak Spellseer (only if Cowled Menace main component is installed)
