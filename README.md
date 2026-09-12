@@ -159,6 +159,11 @@ This Modification is unofficial Fan Content permitted under the Fan Content Poli
 
 ## Version History
 
+2.1.1 -- Bug fix
+
+- Fixed a major quest item being stealable.
+- Updated Polish translation for 2.1 (by my_summertime, SoM Membress, part of CoB Clan)
+
 2.1.0 -- Major Update (Needs translation update)
 
 - **Added around 150 lines of possible interjections for vanilla NPC's throughout the quest**. Every companion has at least 1 line (including Wilson!), although Korgan, Edwin, and Jaheira are the most represented.

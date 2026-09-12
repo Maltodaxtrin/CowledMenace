@@ -6,7 +6,7 @@
 
 BACKUP ~cowledmenace/backup~
 AUTHOR ~Daxtreme at http://gibberlings3.net~  
-VERSION ~2.1.0~
+VERSION ~2.1.1~
 
 ASK_EVERY_COMPONENT                                                                // Disallow installing all components at once
 	LANGUAGE ~English~ ~english~ ~cowledmenace/lang/english/english.tra~
@@ -724,11 +724,11 @@ ASK_EVERY_COMPONENT                                                             
 		ADD_CRE_ITEM ~dx#robe1~ #0 #0 #0 ~none~ ~armor~												// ---New Item--- Lost Robes of Alokkair
   		ADD_CRE_ITEM ~MINHP1~ #0 #0 #0 ~undroppable~ ~belt~											// min hp 1 for narrative purposes, removed as part of the quest
   		ADD_CRE_ITEM ~misc45~ #1 #0 #0 ~none~ ~inv~													// Rogue Stone
-  		ADD_CRE_ITEM ~dx#wards~ #1 #0 #0 ~none~ ~inv~												// Wardstone for the Crypt
-		ADD_CRE_ITEM ~brac07~ #0 #0 #0 ~none~ ~gloves~												// Bracers of 18 dex | itemrev +2 dex 
+  		ADD_CRE_ITEM ~dx#wards~ #1 #0 #0 ~unstealable~ ~inv~										// Wardstone for the Crypt
+		ADD_CRE_ITEM ~brac07~ #0 #0 #0 ~unstealable~ ~gloves~										// Bracers of 18 dex | itemrev +2 dex 
 																									// rring already occupied
 		ADD_CRE_ITEM ~boot12~ #0 #0 #0 ~undroppable~ ~boots~										// Boots immune to backstab, undroppable
-		ADD_CRE_ITEM ~amul22~ #0 #0 #0 ~none~ ~amulet~												// Amulet of Poison Immunity
+		ADD_CRE_ITEM ~amul22~ #0 #0 #0 ~unstealable~ ~amulet~										// Amulet of Poison Immunity
   	BUT_ONLY
 
 // Append Shangalar's script to include reference to Koshi's letter 
