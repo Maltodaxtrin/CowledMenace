@@ -58,7 +58,7 @@ Alternatively the files can be extracted from the archive using WinRAR. If prope
 
 Please run **setup-cowledmenace.exe** in your BG2 folder to reinstall, uninstall, or otherwise change components.
 
-Cowled Menace is currently available in English, French, and Simplified Chinese (latest version), as well as Polish (v2.0.3)
+Cowled Menace is currently available in English, French, Italian, and Simplified Chinese (latest version), as well as Polish (v2.0.3)
 
 ## Components
 

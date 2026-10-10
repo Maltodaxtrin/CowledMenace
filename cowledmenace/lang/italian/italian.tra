@@ -1,0 +1,819 @@
+// The Cowled Menace 2.1.1 - Traduzione italiana
+// Riferimento terminologico: dialog.tlk e dialogf.tlk italiani di BG2:EE.
+// Codifica: UTF-8 senza BOM. Destinazione: BG2:EE / EET.
+
+@0 = ~Componente principale~
+@1 = ~Aumento facoltativo della difficoltà | L'antagonista del mod può evocare un Planetar Oscuro (inutile con SCS)~
+@2 = ~Ricompense adeguate per gli incantatori di alto livello (consigliato)~
+
+@50 = ~Questo componente richiede un'installazione di Baldur's Gate 2: Enhanced Edition o di Enhanced Edition Trilogy.~
+@51 = ~Mancano i file necessari: questo componente richiede un'installazione di Baldur's Gate 2.~
+
+@87 = ~La Pietra del Ladro nel tuo zaino comincia a emettere un debole ronzio. Sta reagendo a qualcosa in questa zona. Qualcosa di non troppo vicino, ma comunque nei paraggi.~
+@88 = ~La Pietra del Ladro nel tuo zaino comincia a emettere un forte ronzio. È evidente che sta reagendo a qualcosa di molto vicino.~
+@89 = ~Entri nella stanza e la Pietra Sigillo di Zallanora nel tuo zaino comincia a ronzare. Qualcosa, da qualche parte in questa stanza, l'ha attivata.~
+@90 = ~La Minaccia Incappucciata~
+@91 = ~Mentre ti avvicini alla rupe, la Pietra del Ladro nel tuo zaino brilla intensamente per poi scomparire. Vieni trascinato nell'oscurità.~ ~Mentre ti avvicini alla rupe, la Pietra del Ladro nel tuo zaino brilla intensamente per poi scomparire. Vieni trascinata nell'oscurità.~
+@92 = ~Mentre ti avvicini alla parete, la Pietra Sigillo di Zallanora si scalda nel tuo zaino e comincia a brillare intensamente. Vieni trascinato nell'oscurità.~ ~Mentre ti avvicini alla parete, la Pietra Sigillo di Zallanora si scalda nel tuo zaino e comincia a brillare intensamente. Vieni trascinata nell'oscurità.~
+@93 = ~Non sapendo cos'altro fare, lasci cadere la Pietra dell'Anima nel calderone ribollente. Il liquido si calma all'istante e il macchinario più avanti, lungo la parete, comincia a ronzare.~
+@94 = ~Il liquido nel calderone ribolle e sfrigola mentre ti avvicini. Il calderone reca il simbolo della Runa Contorta, sotto il quale sono scritte queste parole: La Pietra è la morte. La morte è la via. C'è ancora un sentiero...~
+@95 = ~Pietra dell'Anima~
+@96 = ~Questa Pietra dell'Anima è stata recuperata dal corpo del servitore di Kartak, Maestro della Runa. Il suo scopo è ancora ignoto.~
+@97 = ~Biglietto di Koshi~
+@98 = ~Rapporto sull'edificio accanto alla Locanda di Delosar:
+
+Da quanto abbiamo capito, per varcare la porta che dà sul lungofiume occorre una qualche chiave. Nessuno di noi è riuscito a scoprire cosa serva. Si suggerisce di tendere un'imboscata a chiunque esca da lì e impadronirsene...~
+@99 = ~Minaccia Incappucciata - Uno strano incontro
+
+Oggi ho incontrato una strana e sgarbata elfa nel Distretto del Cimitero. Appartiene chiaramente agli Stregoni Incappucciati, ma ha rifiutato di offrirmi il minimo aiuto per la situazione in cui mi trovo. Eppure, ciò che mi ha colpito di più è che in qualche modo sapeva che sono un Figlio di Bhaal. E sapeva persino dei piani di Irenicus per me? Sono pochissimi a saperlo. È inquietante, a dir poco.~ ~Minaccia Incappucciata - Uno strano incontro
+
+Oggi ho incontrato una strana e sgarbata elfa nel Distretto del Cimitero. Appartiene chiaramente agli Stregoni Incappucciati, ma ha rifiutato di offrirmi il minimo aiuto per la situazione in cui mi trovo. Eppure, ciò che mi ha colpito di più è che in qualche modo sapeva che sono una Figlia di Bhaal. E sapeva persino dei piani di Irenicus per me? Sono pochissimi a saperlo. È inquietante, a dir poco.~
+
+@100 = ~Su questa pergamena compare l'inconfondibile emblema degli Stregoni Incappucciati dell'Amn. Al di sotto si legge:
+
+"La mia influenza ad Athkatla è ormai sufficiente per procedere alla fase successiva del nostro piano: Baldur's Gate. Siate certi che, con la mia organizzazione al vostro fianco, il nostro dominio sulla regione sarà assoluto."~
+
+@101 = ~Minaccia Incappucciata - Runa Contorta - Athkatla
+
+Ho trovato un biglietto che sembra collegare gli Stregoni Incappucciati alle attività della Runa Contorta e al loro prossimo obiettivo: Baldur's Gate. Vale la pena indagare, ma per il momento non mi sembra una buona idea chiedere in giro se qualcuno abbia mai sentito parlare della "Runa Contorta". Se questi due potenti gruppi stanno davvero collaborando, la situazione si prospetta cupa: dubito che abbiano intenzioni caritatevoli. Per ora credo che dovrei cercare altre tracce dell'influenza della Runa Contorta ad Athkatla, poiché non ho alcuna intenzione di tornare a Baldur's Gate. Forse la stessa Pietra del Ladro che ho usato qui ad Athkatla può dare accesso ad altre enclavi segrete?~
+
+@102 = ~Minaccia Incappucciata - Runa Contorta - Colline di Umar
+
+Mi sono imbattuto in un'enclave della Runa Contorta nelle Colline di Umar. A dire il vero, era più probabilmente un semplice punto d'accesso, dato che una gemma chiamata "Pietra del Ladro" mi ha trasportato altrove. A quanto pare, collaborano nell'ombra con gli Stregoni Incappucciati di Athkatla per uno scopo sinistro. Il passo successivo è trovare il loro contatto. Immagino che dovrò escogitare un modo per affrontare i loro capi.~ ~Minaccia Incappucciata - Runa Contorta - Colline di Umar
+
+Mi sono imbattuta in un'enclave della Runa Contorta nelle Colline di Umar. A dire il vero, era più probabilmente un semplice punto d'accesso, dato che una gemma chiamata "Pietra del Ladro" mi ha trasportato altrove. A quanto pare, collaborano nell'ombra con gli Stregoni Incappucciati di Athkatla per uno scopo sinistro. Il passo successivo è trovare il loro contatto. Immagino che dovrò escogitare un modo per affrontare i loro capi.~
+
+@103 = ~Minaccia Incappucciata - Runa Contorta - Colline di Umar
+
+Mi sono imbattuto in un'enclave della Runa Contorta nelle Colline di Umar. A dire il vero, era più probabilmente un semplice punto d'accesso, dato che una gemma chiamata "Pietra del Ladro" mi ha trasportato altrove... E i miei timori erano fondati: collaborano con gli Stregoni Incappucciati di Athkatla per uno scopo sinistro. Il loro contatto sembra essere una certa "Zallanora", che è fuggita quando l'ho affrontata. Fare domande dirette agli Stregoni Incappucciati potrebbe essere pericoloso, a questo punto, soprattutto se lei occupa un posto di rilievo tra loro, come la sua maestria nelle arti magiche sembra indicare.~ ~Minaccia Incappucciata - Runa Contorta - Colline di Umar
+
+Mi sono imbattuta in un'enclave della Runa Contorta nelle Colline di Umar. A dire il vero, era più probabilmente un semplice punto d'accesso, dato che una gemma chiamata "Pietra del Ladro" mi ha trasportato altrove... E i miei timori erano fondati: collaborano con gli Stregoni Incappucciati di Athkatla per uno scopo sinistro. Il loro contatto sembra essere una certa "Zallanora", che è fuggita quando l'ho affrontata. Fare domande dirette agli Stregoni Incappucciati potrebbe essere pericoloso, a questo punto, soprattutto se lei occupa un posto di rilievo tra loro, come la sua maestria nelle arti magiche sembra indicare.~
+
+@104 = ~Minaccia Incappucciata - Laeral Silverhand
+
+Mentre indagavo sulle attività della Runa Contorta, ho incontrato la celebre arcimaga di Waterdeep, Laeral Silverhand. Senza dubbio anche lei li tiene d'occhio, nel caso in cui la loro influenza si estenda ancora più a nord, fino alla sua città. Quanto a nuove piste, non mi ha offerto molto, se non la promessa di indagare a Baldur's Gate. Ha però detto che si terrà in contatto e, in fin dei conti, poter contare sul suo aiuto è la prima buona notizia che ricevo da un po' riguardo a questa faccenda. La accetto volentieri.~
+
+@105 = ~Minaccia Incappucciata - Runa Contorta - Athkatla
+
+Alcuni agenti della Runa Contorta mi hanno teso un'imboscata, senza dubbio a causa del mio coinvolgimento nei loro affari. Stavolta sembra che fosse implicato anche "Koshi", membro di un gruppo piuttosto strano e pericoloso che avevo incontrato nel Distretto del Tempio. Aveva con sé un biglietto che faceva riferimento a uno strano edificio accanto alla "Locanda di Delosar", nel Distretto del Ponte, per accedere al quale occorre una qualche chiave. Forse dovrei indagare più a fondo.~
+
+@106 = ~Minaccia Incappucciata - Runa Contorta - Athkatla
+
+Alcuni agenti della Runa Contorta mi hanno teso un'imboscata, senza dubbio a causa del mio coinvolgimento nei loro affari. Stavolta sembra che fosse implicato anche "Koshi", membro di un gruppo piuttosto strano e pericoloso che avevo incontrato nel Distretto del Tempio. Non ho mai parlato con lui, ma forse aveva con sé qualcosa che potrebbe aiutarmi a proseguire le indagini?~
+
+@107 = ~Minaccia Incappucciata - Laeral Silverhand - Seconda parte
+
+Ho incontrato di nuovo l'arcimaga di Waterdeep dopo aver fatto una visita a sorpresa a un'altra enclave della Runa Contorta. Anche lei ha proseguito le indagini e mi ha fornito il nome del contatto della Runa tra gli Stregoni Incappucciati: Zallanora. Mi ha inoltre avvertito che la storia di questa donna potrebbe nascondere molto altro, dato che sembra assai più potente di quanto il suo passato lascerebbe supporre. Forse dovrei indagare sugli Stregoni Incappucciati.~
+
+@108 = ~Minaccia Incappucciata - Zallanora
+
+Non volendo sottostare alle loro assurde restrizioni sull'uso della magia, ho affrontato gli Stregoni Incappucciati finché non sono arrivati i loro membri di più alto rango a risolvere la questione una volta per tutte. Tra loro c'era l'enigmatica Zallanora, che credo di aver incontrato tempo fa nel Distretto del Cimitero. È fuggita dallo scontro e pare che ora io possa lanciare incantesimi liberamente in città. Sono quasi certo che fosse lei, fin dall'inizio, il contatto della Runa Contorta. Altrimenti... chi potrebbe essere? A parte questo, però, continuo a non sapere cosa stia succedendo. Inoltre, non sembra che abbia ancora finito con me.~ ~Minaccia Incappucciata - Zallanora
+
+Non volendo sottostare alle loro assurde restrizioni sull'uso della magia, ho affrontato gli Stregoni Incappucciati finché non sono arrivati i loro membri di più alto rango a risolvere la questione una volta per tutte. Tra loro c'era l'enigmatica Zallanora, che credo di aver incontrato tempo fa nel Distretto del Cimitero. È fuggita dallo scontro e pare che ora io possa lanciare incantesimi liberamente in città. Sono quasi certa che fosse lei, fin dall'inizio, il contatto della Runa Contorta. Altrimenti... chi potrebbe essere? A parte questo, però, continuo a non sapere cosa stia succedendo. Inoltre, non sembra che abbia ancora finito con me.~
+
+@109 = ~Minaccia Incappucciata - Zallanora
+
+Non volendo sottostare alle loro assurde restrizioni sull'uso della magia, ho affrontato gli Stregoni Incappucciati finché non sono arrivati i loro membri di più alto rango a risolvere la questione una volta per tutte. Tra loro c'era l'enigmatica Zallanora, che forse avevo incontrato tempo fa nel Distretto del Cimitero. È fuggita dallo scontro e pare che ora io possa lanciare incantesimi liberamente in città. Ma questo ha avuto un prezzo: continuo a non sapere cosa stia succedendo con lei o con gli Stregoni Incappucciati. Inoltre, non sembra che abbia ancora finito con me.~
+
+@110 = ~Minaccia Incappucciata - Runa Contorta - Un'altra imboscata
+
+Alcuni membri della Runa Contorta mi hanno teso un'altra imboscata, guidati da Zallanora, un'esponente di alto rango degli Stregoni Incappucciati che avevo già incontrato e affrontato. Per ora sono riuscito a respingere la minaccia, ma non ho idea di cosa stia succedendo dietro le quinte. Tra i resti di Zallanora ho trovato una pietra sigillo: i miei anni di esperienza come avventuriero mi suggeriscono che apra un passaggio verso un luogo, probabilmente nascosto. Ora che ci penso, ricordo che il mio primo, breve incontro con Zallanora è avvenuto molto tempo fa nel Distretto del Cimitero di Athkatla, dove stava lanciando un incantesimo accanto all'ingresso di una cripta. Forse, esplorando di nuovo il labirinto sotterraneo di cripte con la pietra sigillo in mio possesso, potrei trovare qualcosa. Dubito che un ingresso segreto, ammesso che esista, si trovi vicino alla superficie.~ ~Minaccia Incappucciata - Runa Contorta - Un'altra imboscata
+
+Alcuni membri della Runa Contorta mi hanno teso un'altra imboscata, guidati da Zallanora, un'esponente di alto rango degli Stregoni Incappucciati che avevo già incontrato e affrontato. Per ora sono riuscita a respingere la minaccia, ma non ho idea di cosa stia succedendo dietro le quinte. Tra i resti di Zallanora ho trovato una pietra sigillo: i miei anni di esperienza come avventuriera mi suggeriscono che apra un passaggio verso un luogo, probabilmente nascosto. Ora che ci penso, ricordo che il mio primo, breve incontro con Zallanora è avvenuto molto tempo fa nel Distretto del Cimitero di Athkatla, dove stava lanciando un incantesimo accanto all'ingresso di una cripta. Forse, esplorando di nuovo il labirinto sotterraneo di cripte con la pietra sigillo in mio possesso, potrei trovare qualcosa. Dubito che un ingresso segreto, ammesso che esista, si trovi vicino alla superficie.~
+
+@111 = ~Minaccia Incappucciata - Runa Contorta - Colline di Umar
+
+Mi sono imbattuto in un'enclave della Runa Contorta nelle Colline di Umar. A dire il vero, era più probabilmente un semplice punto d'accesso, dato che una gemma chiamata "Pietra del Ladro" mi ha trasportato altrove. A quanto pare, collaborano nell'ombra con gli Stregoni Incappucciati di Athkatla per uno scopo sinistro. Ho incontrato l'arcimaga di Waterdeep, che ha fatto un po' di luce sulla situazione.~ ~Minaccia Incappucciata - Runa Contorta - Colline di Umar
+
+Mi sono imbattuta in un'enclave della Runa Contorta nelle Colline di Umar. A dire il vero, era più probabilmente un semplice punto d'accesso, dato che una gemma chiamata "Pietra del Ladro" mi ha trasportato altrove. A quanto pare, collaborano nell'ombra con gli Stregoni Incappucciati di Athkatla per uno scopo sinistro. Ho incontrato l'arcimaga di Waterdeep, che ha fatto un po' di luce sulla situazione.~
+
+@112 = ~Minaccia Incappucciata - Runa Contorta - Athkatla
+
+Ho trovato un biglietto che sembra collegare gli Stregoni Incappucciati alle attività della Runa Contorta e al loro prossimo obiettivo: Baldur's Gate. Vale la pena indagare, ma per il momento non mi sembra una buona idea chiedere in giro se qualcuno abbia mai sentito parlare della "Runa Contorta". Se questi due potenti gruppi stanno davvero collaborando, la situazione si prospetta cupa: dubito che abbiano intenzioni caritatevoli. Per ora credo che dovrei indagare sugli Stregoni Incappucciati ad Athkatla, poiché non ho alcuna intenzione di tornare a Baldur's Gate e le piste sulla Runa Contorta si stanno esaurendo.~
+
+@113 = ~Minaccia Incappucciata - Laeral Silverhand - Seconda parte
+
+Ho incontrato di nuovo l'arcimaga di Waterdeep dopo aver fatto una visita a sorpresa a un'altra enclave della Runa Contorta. Anche lei ha proseguito le indagini e mi ha fornito il nome del contatto della Runa tra gli Stregoni Incappucciati: Zallanora. L'ho già affrontata, anche se poi è fuggita. Ora che i miei nemici sanno che c'è la mia mano dietro i loro insuccessi, dovrei aspettarmi una rappresaglia nel prossimo futuro. Non so quando né dove colpiranno, ma sarò pronto.~ ~Minaccia Incappucciata - Laeral Silverhand - Seconda parte
+
+Ho incontrato di nuovo l'arcimaga di Waterdeep dopo aver fatto una visita a sorpresa a un'altra enclave della Runa Contorta. Anche lei ha proseguito le indagini e mi ha fornito il nome del contatto della Runa tra gli Stregoni Incappucciati: Zallanora. L'ho già affrontata, anche se poi è fuggita. Ora che i miei nemici sanno che c'è la mia mano dietro i loro insuccessi, dovrei aspettarmi una rappresaglia nel prossimo futuro. Non so quando né dove colpiranno, ma sarò pronta.~
+
+@120 = ~Minaccia Incappucciata - Un istante fatale
+
+A quanto pare, quella Zallanora non era la vera Zallanora: durante il Periodo dei Disordini il suo corpo è stato scambiato con quello di un antico imperatore lich di nome Shoon VII. Questo spiega parecchie cose! Almeno sembra confermare che "lei" fosse responsabile della maggior parte dei loschi affari degli Stregoni Incappucciati e della Runa Contorta, che ormai sembrano aver sostanzialmente abbandonato la regione. Non so bene cosa dovrei fare adesso, però. Laeral si è presentata e l'ho cacciata di nuovo perché non mi fido di lei, mentre Shoon VII sembra immune a qualsiasi danno. Potrei aver commesso un errore lungo la strada?~
+
+@121 = ~Minaccia Incappucciata - Conclusione
+
+A quanto pare, quella Zallanora non era la vera Zallanora: durante il Periodo dei Disordini il suo corpo è stato scambiato con quello di un antico imperatore lich di nome Shoon VII. Questo spiega parecchie cose! Almeno sembra confermare che "lei" fosse responsabile della maggior parte dei loschi affari degli Stregoni Incappucciati e della Runa Contorta, che ormai sembrano aver sostanzialmente abbandonato la regione. Mi sono schierato con Shoon in cambio della promessa di ricchezze, ma Laeral è fuggita mentre noi discutevamo. Non riesco a scrollarmi di dosso la sensazione che dar retta a questo bugiardo sia stata una pessima idea. Ora tutto ciò che deve fare è "riflettere sull'eternità", per usare le sue parole. Sa di più e potrebbe darmi di più, ma non ho nulla da offrirgli in cambio. Non gli importa assolutamente nulla. È esasperante non potergli spaccare il cranio! L'unica nota positiva è che la Runa Contorta mi lascerà finalmente in pace.~ ~Minaccia Incappucciata - Conclusione
+
+A quanto pare, quella Zallanora non era la vera Zallanora: durante il Periodo dei Disordini il suo corpo è stato scambiato con quello di un antico imperatore lich di nome Shoon VII. Questo spiega parecchie cose! Almeno sembra confermare che "lei" fosse responsabile della maggior parte dei loschi affari degli Stregoni Incappucciati e della Runa Contorta, che ormai sembrano aver sostanzialmente abbandonato la regione. Mi sono schierata con Shoon in cambio della promessa di ricchezze, ma Laeral è fuggita mentre noi discutevamo. Non riesco a scrollarmi di dosso la sensazione che dar retta a questo bugiardo sia stata una pessima idea. Ora tutto ciò che deve fare è "riflettere sull'eternità", per usare le sue parole. Sa di più e potrebbe darmi di più, ma non ho nulla da offrirgli in cambio. Non gli importa assolutamente nulla. È esasperante non potergli spaccare il cranio! L'unica nota positiva è che la Runa Contorta mi lascerà finalmente in pace.~
+
+@122 = ~Minaccia Incappucciata - Laeral Silverhand
+
+Mentre indagavo sulle attività degli Stregoni Incappucciati e della Runa Contorta, ho incontrato l'arcimaga di Waterdeep e ho deciso di attaccarla, poiché non mi fidavo di lei. Anche lei stava indagando su di loro e li teneva d'occhio. Non so bene come potrò proseguire le indagini da solo, ma ci proverò.~ ~Minaccia Incappucciata - Laeral Silverhand
+
+Mentre indagavo sulle attività degli Stregoni Incappucciati e della Runa Contorta, ho incontrato l'arcimaga di Waterdeep e ho deciso di attaccarla, poiché non mi fidavo di lei. Anche lei stava indagando su di loro e li teneva d'occhio. Non so bene come potrò proseguire le indagini da sola, ma ci proverò.~
+
+@150 = ~Minaccia Incappucciata - Conclusione
+
+A quanto pare, quella Zallanora non era la vera Zallanora: durante il Periodo dei Disordini il suo corpo è stato scambiato con quello di un antico imperatore lich di nome Shoon VII. Questo spiega parecchie cose. Almeno sembra confermare che "lei" fosse responsabile della maggior parte dei loschi affari degli Stregoni Incappucciati e della Runa Contorta; quest'ultima ha ormai sostanzialmente abbandonato la regione. A quanto pare, il piano di Shoon gli si è ritorto contro: non aveva previsto che al mio fianco ci sarebbe stata un'Eletta di Mystra, capace di spezzare la maledizione che lo rendeva invulnerabile. Risultato: Shoon VII sembra essersene andato per sempre e, in qualche modo, Zallanora è stata salvata. Sono quasi certo che ora la Runa Contorta mi lascerà in pace.~ ~Minaccia Incappucciata - Conclusione
+
+A quanto pare, quella Zallanora non era la vera Zallanora: durante il Periodo dei Disordini il suo corpo è stato scambiato con quello di un antico imperatore lich di nome Shoon VII. Questo spiega parecchie cose. Almeno sembra confermare che "lei" fosse responsabile della maggior parte dei loschi affari degli Stregoni Incappucciati e della Runa Contorta; quest'ultima ha ormai sostanzialmente abbandonato la regione. A quanto pare, il piano di Shoon gli si è ritorto contro: non aveva previsto che al mio fianco ci sarebbe stata un'Eletta di Mystra, capace di spezzare la maledizione che lo rendeva invulnerabile. Risultato: Shoon VII sembra essersene andato per sempre e, in qualche modo, Zallanora è stata salvata. Sono quasi certa che ora la Runa Contorta mi lascerà in pace.~
+
+@194 = ~Tunica Perduta di Alokkair~
+@195 = ~La tunica che il potente lich Alokkair indossava durante i primi anni del suo dominio su Hlontar, a lungo ritenuta perduta nelle nebbie della storia. Questa potente tunica da mago offre protezione contro ogni forma di attacco fisico e, al contempo, aumenta la Resistenza alla Magia e i Tiri-salvezza di chi la indossa, oltre a rendere più rapido il lancio degli incantesimi.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+– Classe Armatura: 4
+– Resistenza alla Magia: +10%
+– Tiri-salvezza: +1
+– Il tempo di lancio degli incantesimi viene ridotto di 2
+
+Peso: 3~
+@196 = ~Elmo dell'Ispirazione~
+@197 = ~Si dice che un'intuizione folgorante possa cogliere chiunque in qualsiasi momento. Forse sono gli dèi stessi a intervenire nell'ora del trionfo di un fedele. O in un momento difficile, quando occorre una particolare perspicacia. Questo elmo funge da catalizzatore di tale effetto. Sebbene i suoi poteri esatti rimangano poco chiari a chi non crede, è ricercato dai seguaci di molte divinità per la sua capacità di aiutare a concentrare la mente e, forse, a raggiungere l'illuminazione.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+– Saggezza: +6
+– Tiri-salvezza: +1
+– Protegge dai colpi critici
+
+Peso: 3~
+
+@198 = ~- Messaggio della Runa -
+
+Il Teschio d'Oro sarà assegnato a chiunque uccida <CHARNAME>, che al momento si ritiene si trovi ad Athkatla o nei dintorni. Sapete cosa fare. La Runa attende i vostri risultati.~
+@199 = ~"Dovrai sovrintendere ai nostri affari ad Athkatla. Ci aspettiamo i primi risultati fra un anno e, naturalmente, seguirà una ricompensa adeguata. Al momento, il nostro principale interesse è il conciatore Hidesman: questo sarà dunque il tuo primo incarico. Non allontanarti troppo dal punto d'accesso, poiché ne sei il guardiano."
+
+Sotto il testo, un sigillo impresso funge da firma. È un simbolo contorto che ricorda due numeri "3" uniti, con le punte rivolte verso il basso come artigli.~
+
+@200 = ~Perla del Potere (Universale)~
+@201 = ~I potenti incantamenti di questa pietra ioun ne fanno un tesoro molto ambito dai maghi.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+– Permette di memorizzare un incantesimo da mago aggiuntivo per ogni livello
+
+Peso: 0~
+
+@202 = ~Spada Corta~
+@203 = ~Lama della Fortuna~
+@204 = ~La Lama della Fortuna, un oggetto di potere leggendario, può esaudire 3 desideri di chi la possiede. Naturalmente, ciò comporta la sua buona dose di rischi: i desideri sono imprevedibili e soltanto quelli formulati con cura danno risultati positivi. Il motivo per cui a questa particolare lama rimangono solo 2 cariche, e lo scopo per cui sia stata usata in precedenza, restano un mistero.
+
+Anche quando esaurisce la capacità di esaudire desideri, questa spada corta rimane un'arma molto potente.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+– Tiri-salvezza: +1
+– Scoprire Trappole: +5%
+– Svuotare Tasche: +5%
+– Muoversi Silenziosamente: +5%
+– Nascondersi tra le Ombre: +5%
+– Individuare Illusioni: +5%
+– Piazzare Trappole: +5%
+– Fortuna: +1
+
+Abilità con cariche (2 cariche):
+– Desiderio
+
+THAC0: +4
+Danno: 1d6+4 (tagliente)
+Fattore-velocità: 1
+Tipo di Competenza: Spada Corta
+Tipo: A una mano
+Richiede:
+Forza 4
+
+Peso: 3~
+
+@205 = ~Pietra Sigillo di Zallanora~
+@206 = ~Spingi di lato il pesante coperchio e il fetore della putrefazione ti sopraffà quasi del tutto. All'interno si trova un piccolo scrigno.~
+@207 = ~Tiri il coperchio dello scrigno, ma non si apre. A quanto pare, per il momento non puoi aprirlo.~
+@208 = ~Apri lo scrigno e ne raccogli il contenuto.~
+@209 = ~Il coperchio del sarcofago sembra pesante, ma potresti rimuoverlo, se lo desideri.~
+
+@250 = ~Il nostro contatto da Athkatla dovrebbe arrivare a breve, Maestro della Runa. Vi assicuro che le risorse degli Stregoni Incappucciati ci saranno di grande aiuto per—~
+@251 = ~Finalmente. Sembra che siano qui.~
+@252 = ~Maestro della Runa, questa... non è la persona che stiamo aspettando.~
+@253 = ~Davvero?~
+@254 = ~Tu, mortale. Ti sei procurato una chiave e sapevi dove usarla. Come mai?~ ~Tu, mortale. Ti sei procurata una chiave e sapevi dove usarla. Come mai?~
+@255 = ~Non lo so. Un momento fa ero nelle Colline di Umar e ora sono qui.~
+@256 = ~Chiunque tu sia, allora, questo è il tuo giorno sfortunato. Preparati a subire l'ira della Runa Contorta.~
+@257 = ~Aspetta. Sta arrivando qualcun altro.~
+@258 = ~Non ne ho proprio idea. Questa pietra continua a teletrasportarmi da un posto all'altro.~
+@259 = ~Dunque sei tu il responsabile della perdita della nostra enclave di Athkatla. La Runa non lascerà impunito un simile affronto.~ ~Dunque sei tu la responsabile della perdita della nostra enclave di Athkatla. La Runa non lascerà impunito un simile affronto.~
+@260 = ~Dunque questa è un'altra delle vostre enclavi? So cosa state tramando. Sto mettendo insieme i pezzi. Sono qui per distruggervi.~
+@261 = ~Non so bene cosa stia succedendo, ma le vostre intenzioni sembrano tutt'altro che buone. Non posso lasciare che un simile male si aggiri per i Reami.~
+
+@267 = ~Benvenuta, Zallanora. Ti stavamo aspettando.~
+@268 = ~Parla in fretta. Ho delle questioni da sbrigare.~
+@269 = ~Naturalmente. Nel frattempo, però, sembra che degli intrusi siano riusciti a entrare. Vuoi unirti al divertimento prima di passare agli affari?~
+@270 = ~Non così in fretta. Degli intrusi sono riusciti a entrare. Intrusi che hanno ucciso Shangalar il Nero ad Athkatla... proprio sotto il tuo naso.~
+
+@280 = ~<CHARNAME>, mi stava benissimo che continuassimo a ignorarci a vicenda, ma non posso permetterti di seminare il caos nei miei ranghi in questo modo.~
+@281 = ~Vedo che quella ragazza è riuscita a fuggire dal manicomio. Sorprendente. Poco importa: oggi morirete tutti, comunque.~
+@282 = ~È ora di pagarne le conseguenze.~
+
+@295 = ~Hmpf— Venire a sfidarmi proprio qui... Non hai davvero idea di chi hai di fronte, vero?~
+@296 = ~Sono Zallanora. Preparati a subire l'ira della più potente tra gli Stregoni Incappucciati, insetto.~
+@297 = ~A quanto pare ti ho sottovalutato, Progenie di Bhaal. Un errore costoso, che non ripeterò.~ ~A quanto pare ti ho sottovalutata, Progenie di Bhaal. Un errore costoso, che non ripeterò.~
+@298 = ~Prega che non ci incontriamo mai più, perché allora sarò pronta a distruggerti.~
+
+// Zallanora, Shoon VII e la cripta.
+
+@300 = ~A quanto pare gli Stregoni Incappucciati ti hanno sottovalutato, Progenie di Bhaal. Un errore costoso, che non ripeterò. L'organizzazione non ti disturberà più.~ ~A quanto pare gli Stregoni Incappucciati ti hanno sottovalutata, Progenie di Bhaal. Un errore costoso, che non ripeterò. L'organizzazione non ti disturberà più.~
+@301 = ~Goditi la tua nuova libertà di lanciare incantesimi... finché puoi.~
+@302 = ~Oh, so chi sono. L'intruso è una Progenie di Bhaal, e per giunta intraprendente.~ ~Oh, so chi sono. L'intrusa è una Progenie di Bhaal, e per giunta intraprendente.~
+@303 = ~A quanto pare, <CHARNAME>, hai finalmente messo il naso in affari che non ti riguardano. È ora di pagarne le conseguenze.~
+@304 = ~Oh, so chi sono. Pensare che questa... Progenie di Bhaal sia riuscita a distruggere Shangalar è ripugnante.~
+@305 = ~<CHARNAME>, oggi morirai.~
+@306 = ~Eppure, Maestro della Runa, faresti bene a non risparmiarti contro <CHARNAME>. Non è un avversario da prendere alla leggera. Ma è ora di pagarne le conseguenze.~ ~Eppure, Maestro della Runa, faresti bene a non risparmiarti contro <CHARNAME>. Non è un'avversaria da prendere alla leggera. Ma è ora di pagarne le conseguenze.~
+@307 = ~Oggi morirai.~
+
+@310 = ~Ah, immagino che ormai ti abbiano chiesto di schierarti in questa ridicola "guerra tra gilde".~
+@311 = ~Scusa, come?~
+@312 = ~Aspetta. Tu puoi lanciare incantesimi in città? Come?~
+
+@313 = ~I miei colleghi non se ne sono ancora resi conto, ma io l'ho vista per quello che è: una messinscena. E prima che tu me lo chieda: no, non ti dirò dove hanno portato la tua amica.~
+@314 = ~Qui può farlo chiunque, persino tu. Il Distretto del Cimitero è piuttosto lontano dai nostri occhi... salvo qualche eccezione.~
+@315 = ~"Nostri"? Fai parte degli Stregoni Incappucciati?~
+@316 = ~Sì. Ma prima che tu me lo chieda: no, non ti dirò dove hanno portato la tua amica.~
+@317 = ~So chi sei, Progenie di Bhaal, e i tuoi problemi non mi riguardano.~
+@318 = ~Non farò nulla del genere.~
+
+@320 = ~Fai parte degli Stregoni Incappucciati? Come fai a sapere di me?~
+@321 = ~Come fai a sapere di me?~
+@322 = ~Pensi davvero che un mago del calibro di Jon Irenicus possa passare inosservato qui? Sono ben consapevole del suo interesse per te, <PRO_GIRLBOY>.~
+@323 = ~Sappi che, se avesse insistito, mi sarei occupata io stessa di questo Irenicus. O di chiunque altro, in effetti, se dovesse diventare un fastidio. Noi osserviamo sempre.~
+
+@330 = ~Ci incontriamo di nuovo, Figlio di Bhaal. La Runa Contorta e io abbiamo deciso che questa insolenza nei confronti dei nostri interessi deve finire. Ora.~ ~Ci incontriamo di nuovo, Figlia di Bhaal. La Runa Contorta e io abbiamo deciso che questa insolenza nei confronti dei nostri interessi deve finire. Ora.~
+@331 = ~Ti abbiamo sottovalutato a ogni passo, <CHARNAME>, ma questa volta siamo pronti. Cancelleremo la tua anima divina dai Reami.~ ~Ti abbiamo sottovalutata a ogni passo, <CHARNAME>, ma questa volta siamo pronti. Cancelleremo la tua anima divina dai Reami.~
+
+@332 = ~<CHARNAME>, la Runa Contorta e io, in qualità di esponente degli Stregoni Incappucciati di Athkatla, abbiamo deciso che questa insolenza nei confronti dei nostri interessi deve finire. Ora.~
+@333 = ~Cancelleremo la tua anima divina dai Reami.~
+
+@340 = ~Dunque sei riuscito ad arrivare fin qui. Nel mio santuario. E pensare che sono finito di nuovo in questo stato, dopo aver resistito contro ogni avversità. Agli dèi non manca il senso dell'ironia.~ ~Dunque sei riuscita ad arrivare fin qui. Nel mio santuario. E pensare che sono finito di nuovo in questo stato, dopo aver resistito contro ogni avversità. Agli dèi non manca il senso dell'ironia.~
+@341 = ~Allora HAI davvero centinaia di anni, come sospettavo!~
+@342 = ~Vedo che hai trovato amici potenti disposti ad aiutarti, Progenie di Bhaal. Anche tu non manchi di sorprese.~
+@343 = ~AaaAAaaAAdoro cantare.... CANTARE!!!~
+@344 = ~Purtroppo, la tua ricerca di vendetta e di un senso finisce qui. Ora non sono che uno spirito innocuo, sebbene del tutto indistruttibile.~
+@345 = ~Che posto è questo? Che diavolo è successo qui?~
+@346 = ~Nemmeno io so bene cosa ci faccia qui. (A Laeral) Credevo di aver chiarito le mie intenzioni l'ultima volta che ci siamo incontrati, sgualdrina. Cosa devo fare perché tu mi lasci in pace?~ ~Nemmeno io so bene cosa ci faccia qui. (A Laeral) Credevo di aver chiarito le mie intenzioni l'ultima volta che ci siamo incontrate, sgualdrina. Cosa devo fare perché tu mi lasci in pace?~
+@350 = ~Il mio nome è Shoon, settimo di questo nome. Quel teschio ululante è la vera Zallanora. Be', un suo riflesso. Forse oggi vive ancora qualcuno che ricorda il mio nome, e che tremerebbe di terrore nell'udirlo.~
+@351 = ~Shoon... VII? L'imperatore folle? Non può essere. Shoon il Settimo è morto da secoli.~
+@352 = ~Ah, dunque hai sentito narrare le mie gesta! Un tempo fui davvero un grande imperatore, tradito. O almeno così credono tutti. Simulai la mia morte e studiai come diventare un lich, finché non riuscii nel mio intento.~
+@353 = ~E l'elfa, allora? Che cosa c'entra con tutto questo?~
+@354 = ~La ragione per cui sono rimasto inattivo per secoli è la stessa per cui non puoi farmi del male. Né farne a lei, a dire il vero.~
+@355 = ~Zallanora e i suoi amici si imbatterono nel mio dominio in un giorno fatale. Avevo intenzione di consumare le loro anime per sfuggire a una... situazione in cui mi ero cacciato. Ero intrappolato nel Tomo dell'Unicorno, a causa delle mie ricerche su antichi poteri arcani. Un grave errore.~
+@356 = ~Li massacrai sul posto e cominciai a bere le loro anime, pregustando la mia salvezza. Ma proprio in quel momento ebbe inizio il Periodo dei Disordini. Zallanora era ancora viva, in qualche modo. L'unica ancora viva. Non avevo ancora bevuto la sua anima... E ci scambiammo i corpi.~
+@357 = ~Fu così che cominciarono le nostre maledizioni. La sua: rimanere intrappolata nel libro, nella mia forma ormai putrefatta. La mia: abitare per sempre il fragile corpo di una giovane elfa.~
+
+@365 = ~Certo. Deve essere stato davvero, davvero terribile rimanere intrappolato nel corpo di una giovane elfa.~
+@366 = ~Una concatenazione di eventi davvero funesta. Che cosa accadde poi?~
+@367 = ~Questo non spiega ancora perché hai fatto ciò che hai fatto.~
+@368 = ~Sì, sì. Perché non arrivi alla parte che mi riguarda?~
+
+@370 = ~Mi ci vollero dieci anni per imparare a controllarlo a dovere. Per plasmare l'energia magica con la stessa maestria a cui ero abituato. E la mia maestria era straordinaria, come avrai notato nei nostri scontri.~
+@371 = ~Il nuovo corpo portò nuovo vigore. E ambizione. Ripresi i miei piani di secoli prima... dominare l'intera Costa della Spada, nell'ombra.~
+@372 = ~A quanto pare, il mondo non era cambiato molto durante i miei secoli di assenza. I corteggiatori accorrevano da ogni dove per "insegnare" a una giovane apprendista fin troppo desiderosa di imparare, quale apparivo io. Acquisire influenza su di loro fu di una facilità ridicola.~
+@373 = ~Facevano la fila. Un'esperienza nuova per me, come puoi ben immaginare. Ben presto cominciai a salire di rango senza destare sospetti. Avevo quasi preso il controllo tanto degli Stregoni Incappucciati quanto della Runa Contorta... finché non sei arrivato tu.~ ~Facevano la fila. Un'esperienza nuova per me, come puoi ben immaginare. Ben presto cominciai a salire di rango senza destare sospetti. Avevo quasi preso il controllo tanto degli Stregoni Incappucciati quanto della Runa Contorta... finché non sei arrivata tu.~
+@374 = ~Sei ripugnante, vile in tutto e per tutto come narrano le leggende. Perché ci stai raccontando queste cose? Che cosa speri di guadagnarci?~
+@380 = ~Francamente, è piuttosto liberatorio far crollare tutti gli strati di menzogne e dire la verità... per una volta. A parte la giovane Zallanora qui presente, che non comprende una parola di ciò che le dico, voi siete gli unici esseri nei Reami a conoscere la mia storia. Mi ha fatto piacere.~
+@381 = ~Ma soprattutto, ormai nulla di tutto questo mi importa. Non potete uccidere il mio spirito più di quanto possiate salvare lei. Sono maledetto, condannato a rimanere in questo stato finché la magia del Tomo non diverrà abbastanza debole da permettermi di sopraffarla. Oppure finché un evento come il Periodo dei Disordini non si ripeterà, annientando il potere del Tomo.~
+@382 = ~Potrebbero volerci secoli. O millenni... Allora riprenderò il mio progetto, elaborato con cura in un tempo quasi eterno. E nessuno di voi due potrà fermarlo, perché sarete morti da molto, a quel punto. Sì, sopravvivrò persino a te, Laeral. Finora ho vissuto più a lungo di te e di tutte le tue sorelle.~ ~Potrebbero volerci secoli. O millenni... Allora riprenderò il mio progetto, elaborato con cura in un tempo quasi eterno. E nessuna di voi due potrà fermarlo, perché sarete morte da molto, a quel punto. Sì, sopravvivrò persino a te, Laeral. Finora ho vissuto più a lungo di te e di tutte le tue sorelle.~
+@384 = ~Solo passando sul mio cadavere. Ci verrà in mente qualcosa... vero?~
+@385 = ~E se ti uccidessi qui, adesso?~
+@386 = ~Be', allora tanto meglio, per quanto mi riguarda. Sinceramente, non mi importa cosa farai tra mille anni.~
+
+@397 = ~Ora che quella sgualdrina se n'è andata, tu non mi interessi. Non mi importa dei vostri affari mortali. Ciò su cui rifletto, al momento, è cosa fare con un'eternità a disposizione per pensare.~
+@398 = ~Che cosa faresti se avessi un'eternità a disposizione per pensare? È ciò su cui sto riflettendo in questo momento. Tu, invece, dovresti ragionare su un arco di tempo molto più breve: per esempio, su cosa fare adesso.~
+@399 = ~È soltanto un modo di vedere la questione. Ho un'eternità a disposizione per pensare e riflettere sul mondo. Direi che è una grande opportunità. Ti saluto, figlio degli dèi, e ti auguro buona fortuna nella tua ricerca di un senso da dare alla tua esistenza.~ ~È soltanto un modo di vedere la questione. Ho un'eternità a disposizione per pensare e riflettere sul mondo. Direi che è una grande opportunità. Ti saluto, figlia degli dèi, e ti auguro buona fortuna nella tua ricerca di un senso da dare alla tua esistenza.~
+
+@400 = ~Sotto l'effetto di Protezione dalla Morte~
+@401 = ~Sotto l'effetto di Barriera di Lame~
+@402 = ~Attivatore di Incantesimi—Defletti Incantesimo~
+@403 = ~Catena di Contingenze—Orripilante Avvizzimento di Abi-Dalzim~
+@404 = ~Catena di Contingenze—Incantesimo della Morte~
+@405 = ~Catena di Contingenze—Catena di Fulmini~
+@406 = ~Sequenziatore di Incantesimi—Trappola del Teschio~
+@407 = ~Sotto l'effetto di Pelle di Ferro~
+@408 = ~Trappola (Fermare il Tempo)—Scattata~
+@409 = ~Utilizzare Qualsiasi Oggetto—Mano Stritolatrice di Bigby (pergamena)~
+@410 = ~Utilizzare Qualsiasi Oggetto—Immunità agli Incantesimi, Divinazione (pergamena)~
+@411 = ~Utilizzare Qualsiasi Oggetto—Visione del Vero (pergamena)~
+@412 = ~Utilizzare Qualsiasi Oggetto—Immunità Assoluta (pergamena)~
+@413 = ~Contingenza—Rinvigorimento Netherese~
+@414 = ~Utilizzare Qualsiasi Oggetto—Lamento della Banshee (pergamena)~
+@415 = ~Desiderio—Disgiunzione Netherese~
+@416 = ~Creare Non Morti Maggiori—Scheletro Guerriero~
+
+@420 = ~Ti invito a provarci. Ci ho provato anch'io. Ho assoldato avventurieri perché ci provassero. Siamo entrambi immuni a qualsiasi danno: un effetto collaterale, suppongo, della situazione in cui il Tomo ci ha imprigionati. La maledizione che ci vincola funge anche da involucro protettivo.~
+@421 = ~Il potere del Tomo è assoluto e non può essere annullato. Credimi: chiunque conosca il Tomo lo sa.~
+@423 = ~Allora come ho fatto a ucciderti?~
+@426 = ~Quando ci scambiammo i corpi, ero io a essere intrappolato nel libro, mentre Zallanora era libera. Così fui liberato e lei rimase intrappolata nel libro. Ma i nostri spiriti sono legati per effetto del Periodo dei Disordini: nessuno dei due può lasciare il mondo dei vivi senza l'altro. E poiché lei è prigioniera del libro... io non posso andarmene, nemmeno ora che la mia forma fisica è morta. E non posso crearne una nuova.~
+@427 = ~Ora ho millenni per pensare e riflettere sulla strategia da adottare quando questa maledizione finalmente finirà. Direi che è una grande opportunità. Ti saluto, figlio degli dèi, e ti auguro buona fortuna nella tua ricerca di un senso da dare alla tua esistenza. I tuoi affari non mi riguardano più.~ ~Ora ho millenni per pensare e riflettere sulla strategia da adottare quando questa maledizione finalmente finirà. Direi che è una grande opportunità. Ti saluto, figlia degli dèi, e ti auguro buona fortuna nella tua ricerca di un senso da dare alla tua esistenza. I tuoi affari non mi riguardano più.~
+
+@430 = ~E così dev'essere. Hai ancora una vita davanti a te. Una vita che non mi riguarda. Perché dovresti preoccupartene?~
+
+@435 = ~Non così in fretta, vostra altezza. Sembra che vi sia sfuggito un dettaglio in questo piano apparentemente inattaccabile.~
+
+@440 = ~Nonostante tutta la vostra astuzia, c'è qualcosa che non avete previsto: sono un'Eletta di Mystra, la dea della magia in persona. E tra tutti i suoi Eletti... sono la più esperta di oggetti magici e artefatti.~
+@441 = ~Conosco questo Tomo dell'Unicorno e ne avverto la presenza. È proprio qui, nel vostro sarcofago.~
+@442 = ~È un oggetto di immenso potere. La sua magia non può assolutamente essere annullata. Ma il Tomo in sé, a differenza della sua magia, non è immune ai danni. Lo avete detto voi stesso: il vostro piano è riuscire, prima o poi, a sopraffarlo.~
+@443 = ~Come ogni artefatto di questo genere, il Tomo trae dalla Trama il proprio potere magico e la propria integrità. E io dispongo del Fuoco Argenteo di Mystra. Se la dea mi concederà il suo favore, forse potrò distruggerlo e, così facendo, annullarne la magia.~
+@450 = ~Che follia è mai questa? Distruggeresti un oggetto di valore inestimabile? Che cosa speri di guadagnarci?~
+@451 = ~Nulla di tangibile. In verità, ho solo da perderci. Ma credo che il mondo starà meglio senza di voi. Per sempre, questa volta.~
+@452 = ~Impossibile! Non lo farai, non hai il potere di—~
+@453 = ~Oh, invece credo proprio di sì. E lo avete detto voi stesso: ormai siete del tutto innocuo, e quindi... non potete fermarci.~
+@455 = ~Figlio degli dèi, possiedo tesori di grande potere, antichi artefatti di cui solo io conosco l'ubicazione. Ormai sei potente, forse persino più di lei. Aiutami ora e ti renderò più ricco e potente di quanto tu abbia mai osato immaginare.~ ~Figlia degli dèi, possiedo tesori di grande potere, antichi artefatti di cui solo io conosco l'ubicazione. Ormai sei potente, forse persino più di lei. Aiutami ora e ti renderò più ricca e potente di quanto tu abbia mai osato immaginare.~
+@460 = ~Certo. E rivoltarmi contro una delle Sette Sorelle? No, grazie.~
+@461 = ~Uh, fammi pensare. Chi dovrei aiutare? Una persona squisita, un'arcimaga leggendaria per la sua equità e giustizia negli ultimi secoli, che finora mi ha dato una mano... oppure un folle tiranno che ha cercato di uccidermi?~
+@462 = ~Non crederò alle menzogne di un ratto con le spalle al muro che, di sua spontanea volontà, ha mentito, ingannato e ucciso per secoli. Se c'è un modo per distruggerti, sono ben felice di provarci.~
+@463 = ~Aspetta. Di quali ricchezze stiamo parlando?~
+@464 = ~Sinceramente, non mi importa cosa farai tra mille anni. Ma a questo punto, tra noi, è una questione personale. Non te la caverai.~
+
+@470 = ~Insolenti canaglie! Certo, la prediletta di Mystra... Perché non ci ho pensato?! Avrei dovuto ridurre in schiavitù una delle tue sorelle, Laeral, e costringerla a liberarmi! Avreste rimpianto il giorno della vostra nascita, senza eccezioni! Le sue urla vi avrebbero raggiunto attraverso la Trama, ogni giorno.~ ~Sgualdrine insolenti! Certo, la prediletta di Mystra... Perché non ci ho pensato?! Avrei dovuto ridurre in schiavitù una delle tue sorelle, Laeral, e costringerla a liberarmi! Avreste rimpianto il giorno della vostra nascita, senza eccezioni! Le sue urla vi avrebbero raggiunto attraverso la Trama, ogni giorno.~
+@471 = ~Vi prometto una cosa, a entrambi: se sopravviverò a tutto questo, vi attende soltanto un'eternità di tormenti.~ ~Vi prometto una cosa, a entrambe: se sopravviverò a tutto questo, vi attende soltanto un'eternità di tormenti.~
+@472 = ~Fatti da parte, <CHARNAME>. Comincerò la comunione con la Dea.~
+@473 = ~E per la cronaca, vostra altezza, nessuna delle mie sorelle può farlo. Sono però molto sollevata che le vostre siano soltanto minacce vuote: so bene che non lo sarebbero, se foste libero di aggirarvi per i Reami.~
+
+@480 = ~Conosco l'ubicazione della Gemma Vivente, e anche di una lama che esaudisce desideri, e—~
+@481 = ~<CHARNAME>, Shoon VII è uno dei sovrani più abietti che siano mai vissuti. Il male incarnato. Non vorrai certo credere alle sue menzogne? Non ha alcuna intenzione di mantenere le sue promesse, e lo sai.~
+
+@485 = ~Stavo solo giocando con lui. È tutto tuo.~
+@486 = ~Al contrario. Voglio quello che mi sta offrendo. Non ti lascerò distruggerlo.~
+@487 = ~Per la Dea. Dici sul serio.~
+
+@490 = ~Sì, hai parlato da vero Figlio dell'Omicidio! Uccidila, poi manterrò le mie promesse.~ ~Sì, hai parlato da vera Figlia dell'Omicidio! Uccidila, poi manterrò le mie promesse.~
+@491 = ~Non hai capito. Li voglio adesso.~
+@492 = ~Come osi avanzare pretese tanto sfacciate?!~
+@493 = ~...~
+@494 = ~... Va bene. Non mi lasci molta scelta. Gli oggetti di cui ti ho parlato sono tuoi.~
+
+@496 = ~Be', allora è stato tutto inutile. Misere ricchezze per te, e nient'altro. La tua avidità mi disgusta, ma so bene quanto sarebbe imprudente affrontarti in combattimento. La Dea non lo permetterebbe: ne ha abbastanza dei conflitti tra divinità.~
+@497 = ~Sappi che un giorno la tua decisione potrebbe causare la morte di milioni di persone. Ma immagino che non ti importi, dato che probabilmente la cosa non ti toccherà.~
+
+@498 = ~È fatto.~
+@499 = ~La maledizione... è spezzata!~
+@500 = ~Uh... perché sono entrambi vivi?~
+@501 = ~Non... ne sono sicura.~
+@502 = ~Sono ancora vivo! Vi ho fatto una promessa, a entrambi, e intendo mantenerla fino in fondo... Preparatevi a conoscere tutta la mia ira!~ ~Sono ancora vivo! Vi ho fatto una promessa, a entrambe, e intendo mantenerla fino in fondo... Preparatevi a conoscere tutta la mia ira!~
+@503 = ~Aspetta. C'è qualcosa che non va.~
+@504 = ~Io... Io sto... svanendo?~
+@505 = ~No, non è possibile!~
+@506 = ~No! NOOOOOOO!~
+@507 = ~AAAAHHHHH! Aiuto! I miei amici... sono tutti...~
+@508 = ~Ooohh... Ahi... La testa...~
+@509 = ~È stato...~
+
+@511 = ~Che cosa è successo? Com'è possibile che lei sia viva e Shoon morto?~
+@512 = ~Sono sconvolta quanto te. In realtà avrebbero dovuto... morire entrambi. Temevo proprio che sarebbe successo. Ma una logica c'è. Dopo lo scambio dei corpi, Shoon è morto combattendo contro di te, mentre Zallanora, la vera Zallanora intrappolata nel corpo di Shoon, no.~
+@513 = ~Dunque l'unica a essere davvero sopravvissuta dopo lo scambio... è lei. Forse è per questo che, quando lo scambio è stato annullato, è stata risparmiata? Per un ironico scherzo del destino ai danni di Shoon, morire nel corpo di Zallanora ha finito per salvarle l'anima.~
+@514 = ~Non è ancora al sicuro. Almeno, non in queste cripte.~
+@520 = ~Immagino che potrei portarti con me. Dopotutto, la frenetica vita avventurosa di <CHARNAME> è l'esatto contrario di ciò di cui hai bisogno adesso.~
+@521 = ~Ho buoni rapporti con gli elfi di Silverymoon e una posizione solida a Waterdeep. Con me sarai al sicuro, povera creatura...~
+
+@525 = ~(Non dire nulla).~
+@526 = ~Questo... ha molto senso.~
+@527 = ~Aspetta. Ecco 2000 monete d'oro. Per aiutarla a ricominciare.~
+
+@530 = ~È molto generoso da parte tua, <CHARNAME>. Farò in modo che a Waterdeep molti vengano a conoscenza delle tue gesta. Sei davvero all'altezza della tua reputazione.~
+@535 = ~È il minimo che potessi fare.~
+@536 = ~In un certo senso, è come se l'avessi... uccisa? Anche se non era davvero lei? Era pur sempre il suo corpo. Comunque sia, sentivo di doverlo fare.~
+
+@550 = ~D... Dove sono?~
+@551 = ~Sei ad Athkatla, nell'Amn. Be', in una cripta nascosta sotto la città. Ed è un miracolo che tu sia ancora viva. Qual è l'ultima cosa che ricordi?~
+
+@552 = ~Ath... Athkatla? Perché sono qui? Che cosa è successo?~
+@553 = ~È, uh... una lunga storia.~
+
+@555 = ~Tutto ciò che ricordo sono... urla. E perché mi sento così orribilmente male?~
+@560 = ~Va bene, ci provo... Invece di morire in modo atroce quando un imperatore lich vecchio di secoli ha cercato di prosciugarti l'anima, dopo che eri entrata senza invito nel suo santuario, hai scambiato il tuo corpo con il suo grazie a un colpo di fortuna inaudito, di quelli che capitano una volta ogni mille anni. Poi ha lasciato il tuo spirito a marcire qui, mentre progettava come conquistare la Costa della Spada con il suo nuovo corpo giovane: il tuo!~
+
+@561 = ~Questo è... Qualcuno mi ha rubato il corpo? Ora che lo dici, ricordo qualcosa del genere. Come se fossi stata risucchiata fuori dal mio corpo. È stato orribile.~
+@562 = ~Lo è. So cosa si prova... è orribile.~
+@563 = ~È... finita, ora? Come... come ho riavuto il mio corpo? Ho così tante domande.~
+@565 = ~Sì, è finita. Non so bene come tu abbia riavuto il tuo corpo, ma non importa.~
+@566 = ~Hai riavuto il tuo corpo perché la signora qui presente ha distrutto l'oggetto che legava la tua anima a quella dell'imperatore.~
+@567 = ~Accontentati di essere viva. È solo per un caso fortunato che sei sopravvissuta. Dovresti ringraziare Laeral: è stata lei a salvarti la vita.~
+
+@570 = ~Ha distrutto... cosa?~
+@571 = ~Non pensarci. Alla fine è andato tutto bene.~
+
+@579 = ~Oh, va bene. Mi... fiderò della tua parola. Grazie comunque per avermi salvata.~
+@580 = ~Che cosa dovrei fare adesso? Come faccio a tornare a casa?~
+@581 = ~Be', ti consiglierei di allontanarti il più possibile da Athkatla e dagli Stregoni Incappucciati. Quelli che qui "ti" conoscono non sono persone che vorresti incontrare. Mai.~
+
+@582 = ~Ma la mia famiglia? E i miei amici?~
+@583 = ~Mi dispiace dirtelo, ma i tuoi amici sono morti. Li ha uccisi lui. Quanto ai tuoi familiari... spero che siano ancora vivi, ma non ci conterei.~
+@584 = ~Morti. L'imperatore li ha uccisi e ha bevuto le loro anime. Quanto ai tuoi familiari... probabilmente ha fatto fuori anche loro per cancellare le proprie tracce. Per non lasciare questioni in sospeso, e così via.~
+@585 = ~Ascolta: tanto per cominciare, sei fortunata a essere viva. Se vuoi continuare a esserlo, devi prendere delle precauzioni. L'uomo che abitava il tuo corpo non era esattamente un angelo.~
+
+@590 = ~M-morti? Tutti quanti? Così, e basta? *Singhiozza* No... come ha potuto... p-perché?~
+@591 = ~Allora sono...?~
+
+@595 = ~Sono morti. Sì, purtroppo. Mi dispiace davvero, bambina mia.~
+
+// Laeral Silverhand: incontri, indagini ed epilogo.
+
+@600 = ~Io... Scusate... Va bene, lasciatemi riprendere un momento... Io... Come faccio a uscire da questo posto? Che cosa devo fare adesso?~
+
+@610 = ~Va bene. Io... immagino che sia tutto, allora? Grazie per... tutto quanto. Scusate, sono ancora un po' sconvolta... e mi gira la testa.~
+@615 = ~Io... Non ho parole. N-non riesco a credere a tanta bontà. Non la dimenticherò mai. Immagino che sia tutto, allora? Grazie per... tutto quanto. Scusate, sono ancora un po' sconvolta... e mi gira la testa.~
+
+@625 = ~Dunque, qui le nostre strade si dividono, <CHARNAME>. Oggi il mondo può tirare un enorme sospiro di sollievo. Nessuno lo sa, ma abbiamo scongiurato una possibile catastrofe futura.~
+@626 = ~Prima di andarmene, volevo dirti che ho avvertito un'altra aura magica provenire dal sarcofago. Non ho dubbi: al suo interno si trova un potente artefatto. Credo che dovresti prenderlo. Per oggi, ne ho avuto abbastanza di artefatti.~
+@627 = ~La prossima volta che vedrò Elminster, gli racconterò senz'altro le nostre imprese! Una volta disse che, se Shoon VII fosse ancora vivo, non vi sarebbe pace ai nostri giorni. Ora che l'ho incontrato, non posso che dargli ragione.~
+@628 = ~Se sono le ricchezze che cerchi, nano, ti invito a servirti del contenuto di quel sarcofago.~
+@630 = ~Suppongo che tornerai ad Athkatla? Allora è il momento di salutarci. Grazie per il tuo aiuto in questa faccenda. Che possiamo incontrarci di nuovo in circostanze migliori.~
+
+@650 = ~Davvero, <CHARNAME>? So bene quanto sarebbe imprudente affrontarti in combattimento. La Dea non lo permetterebbe: ne ha abbastanza dei conflitti tra divinità. Con grande delusione, ti lascerò ai tuoi affari, qualunque essi siano.~
+@651 = ~Spero che ci incontreremo di nuovo in circostanze più piacevoli.~
+
+@655 = ~Davvero, <CHARNAME>? Le risposte che cerchiamo si trovano proprio oltre questo sigillo magico. Ma so bene quanto sarebbe imprudente affrontarti in combattimento. La Dea non lo permetterebbe: ne ha abbastanza dei conflitti tra divinità.~
+@656 = ~Ti aspetterò comunque all'interno, se deciderai di mostrarti più ragionevole.~
+
+@658 = ~A quanto pare, nemmeno tutti i tuoi compagni approvano questo atto di aggressione gratuito. In ogni caso, vi lascerò ai vostri dissidi.~
+
+@700 = ~Che cosa è successo qui, in nome della Dea? Un momento fa era in corso una riunione, che stavo spiando, sia chiaro. E un momento dopo, l'energia magica scatenata in questo luogo è stata tale da farsi sentire persino attraverso il mio incantesimo!~
+@701 = ~Dimmi, chi sei? Non hai l'aria di un agente della Runa Contorta.~ ~Dimmi, chi sei? Non hai l'aria di un'agente della Runa Contorta.~
+@702 = ~La dea Mystra? Aspetta: sei chi penso che tu sia?~
+@703 = ~Va bene. Sono <CHARNAME>. Mi sono imbattuto in questo luogo, la loro enclave, e ho risolto la questione a modo mio.~ ~Va bene. Sono <CHARNAME>. Mi sono imbattuta in questo luogo, la loro enclave, e ho risolto la questione a modo mio.~
+@704 = ~Sono <CHARNAME>. Mi sono imbattuto in questo luogo, la loro enclave, e ho risolto la questione a modo mio.~ ~Sono <CHARNAME>. Mi sono imbattuta in questo luogo, la loro enclave, e ho risolto la questione a modo mio.~
+@705 = ~Come fai a sapere che non sono un agente della Runa Contorta?~ ~Come fai a sapere che non sono un'agente della Runa Contorta?~
+@706 = ~Mi chiamo <CHARNAME>. Sono rimasto coinvolto in questo pasticcio della Runa Contorta e... ancora non so bene come.~ ~Mi chiamo <CHARNAME>. Sono rimasta coinvolta in questo pasticcio della Runa Contorta e... ancora non so bene come.~
+@707 = ~Prima tu.~
+@708 = ~Non sarà necessario, Jaheira. È soltanto la mia naturale curiosità, nulla di più. Anche se... è davvero rassicurante incontrare un'altra Arpista qui. Credo che sia un'ulteriore conferma di essere sulla strada giusta.~
+
+@710 = ~Mi sembra giusto.~
+@711 = ~Mi chiamo Laeral Silverhand.~
+@712 = ~Aspetta, Laeral? QUELLA Laeral Silverhand? Una delle Sette Sorelle?~
+@713 = ~Decenni? Fino a che punto arriva questo intrigo?~
+@714 = ~Quindi sono riusciti a far arrabbiare persino te, eh?~
+@715 = ~Sto indagando sulla Runa Contorta perché credo che una serie di eventi strani e apparentemente scollegati, verificatisi negli ultimi... be', negli ultimi decenni, possa in realtà avere un legame. Con loro.~
+@716 = ~Ti accompagni a persone interessanti, <CHARNAME>.~
+@717 = ~Dunque, come stavo dicendo.~
+@718 = ~Vedo che i miei recenti tentativi di condurre una vita decisamente più discreta hanno avuto ben poco effetto sulla mia fama.~
+@719 = ~Sì. Mi chiamo Laeral Silverhand.~
+@720 = ~Sì, sono proprio io.~
+@721 = ~Credo che i capelli d'argento mi tradiscano un po'.~
+@722 = ~Come mai una delle Sette Sorelle si interessa alla Runa Contorta? Hanno mai agito contro di te?~
+
+@725 = ~Non ne sono sicura. È proprio ciò che volevo scoprire.~
+@726 = ~Lo dici in modo piuttosto brusco, ma sì, è così.~
+
+@730 = ~Oh, ora ricordo. <CHARNAME>... La Progenie di Bhaal. Elminster mi ha parlato molto di te. Ripone una grande fiducia in te.~
+@732 = ~Non mi importa di quel vecchio pazzo. Non mi hai ancora detto chi sei, e comincio a insospettirmi.~
+@733 = ~Uh... Davvero? È passato parecchio tempo dall'ultima volta che l'ho visto. Per un po' sembrava interessarsi alle mie faccende, poi è scomparso.~
+@734 = ~Già, a proposito... sai cosa vuole da me?~
+@735 = ~Aspetta, ti conosco?~
+
+@740 = ~Elminster agisce in modi enigmatici, ma opera per il bene di tutti. Ha scelto di seguire i tuoi progressi per una ragione.~
+@741 = ~A quanto pare, sono in molti a seguire i miei progressi. Sinceramente, preferirei essere lasciato in pace. Ma dall'assassinio di Gorion in poi, non è mai stato possibile.~ ~A quanto pare, sono in molti a seguire i miei progressi. Sinceramente, preferirei essere lasciata in pace. Ma dall'assassinio di Gorion in poi, non è mai stato possibile.~
+@742 = ~Capisco... Dunque, chi sei, insomma?~
+@743 = ~Se Elminster crede in me, come sembra, come posso parlargli?~
+
+@750 = ~Chi ha un ruolo di primo piano nel gioco degli dèi è condannato a non essere mai davvero solo. Né a passare inosservato.~
+@751 = ~Sembra che tu parli per esperienza.~
+
+@755 = ~È così. Ma si tratta di dèi diversi, e di ragioni del tutto diverse.~
+@756 = ~Non mi hai ancora detto chi sei, anche se comincio a pensare di non aver più bisogno di chiedertelo.~
+@757 = ~Sei... una delle Sette Sorelle, per caso?~
+
+@760 = ~Non puoi. Devo fidarmi del suo giudizio, come ho fatto tante volte in passato. Suppongo abbia capito che ti serviva soltanto una piccola spinta nelle tue ore più buie.~
+@761 = ~Il risultato è che ora sei maturato... e hai acquisito potere. La scena che vediamo ne è una prova. Spero soltanto che la sua fiducia fosse ben riposta.~ ~Il risultato è che ora sei maturata... e hai acquisito potere. La scena che vediamo ne è una prova. Spero soltanto che la sua fiducia fosse ben riposta.~
+@762 = ~La Runa Contorta ha avuto ciò che meritava, ma continuo a non sapere cosa vogliano o perché siano qui. Un aiuto mi farebbe comodo, e te lo chiederei... se almeno sapessi chi sei!~
+@763 = ~Basta parlare di lui. Non mi hai ancora detto chi sei, e comincio a insospettirmi.~
+@764 = ~Che ne dici di passare alla parte in cui mi spieghi che diavolo sta succedendo qui?~
+@765 = ~Quindi conosci Elminster... Sei una delle Sette Sorelle, per caso?~
+
+@770 = ~La dea Mystra mi guida. E mi dice che in te non vi è traccia dell'influenza della Runa. Ma avverto anche un qualche contatto divino, perciò devo chiedertelo di nuovo: chi sei?~
+
+// I riferimenti al corpo femminile di Edwin sono vincolati dal dialogo a Gender("Edwin",FEMALE).
+@779 = ~Ci arriverò tra un momento.~
+@780 = ~Solo ora, però, noto che la mia presenza ti mette a disagio. Appartieni forse ai Maghi Rossi di Thay? La loro impronta arcana è ben evidente su di te.~
+@781 = ~Allora è meglio che le cose restino così. Dovresti sapere che i Maghi Rossi si sono fatti nemiche me e le mie sorelle... e, in particolare, mia sorella Alassra.~
+@782 = ~Ma ciò che trovo ancora più curioso è il prototipo di incantesimo attivo su di te. Che traccia insolita, unica nel suo genere.~
+@783 = ~Se fossi incline alle scommesse, direi che ti ha trasformata. Radicalmente. Contro la tua volontà. Sembri a disagio. Forse il tuo aspetto... non è proprio quello che vorresti?~
+@784 = ~Sempre che ci sia qualcosa da correggere, bambina mia. Forse meriti un simile destino. Ma non spetta a me giudicare.~
+@785 = ~E per me sarebbe inconcepibile vivere in una mente rigida e piena di conflitti come la tua.~
+@786 = ~In ogni caso, quella magia è di origine netherese: non potrebbe essere più lontana dalla Trama tradizionale di Mystra. Temo che né io né la Dea possiamo aiutarti.~
+@787 = ~Credo che, nonostante tutto, questa non sarà l'ultima volta che sentirò parlare di te, esponente dei Maghi Rossi. Per ora mi limiterò a tollerare la tua presenza. Comunque, torniamo alla nostra faccenda.~
+@788 = ~Forse la conosci come "Simbul". Il suo paese subisce continui assalti da parte degli Zulkir di Thay. Per tua fortuna, non sono lei: altrimenti, a quest'ora, di te non resterebbe che polvere. Non guarda con benevolenza i nemici del suo regno e, in un impeto d'ira, probabilmente avrebbe fatto della tua morte un esempio.~
+@789 = ~È adorabile che tu possa pensare di sopravvivere all'ira di mia sorella anche solo per un istante. È la più formidabile incantatrice che conosca.~
+
+@802 = ~Da qualche tempo tengo d'occhio ogni loro mossa. Anche se mi sono persa una parte dell'incontro, la riunione ha confermato i miei timori: la Runa Contorta è attiva e sta espandendo la propria influenza.~
+@803 = ~Poi sei comparso tu e li hai semplicemente ridotti in polvere. Non posso approvare i tuoi metodi, ma suppongo che, a lungo andare, la loro morte difficilmente possa essere considerata un male.~ ~Poi sei comparsa tu e li hai semplicemente ridotti in polvere. Non posso approvare i tuoi metodi, ma suppongo che, a lungo andare, la loro morte difficilmente possa essere considerata un male.~
+@811 = ~Be', temo che ci sia dell'altro. A quanto pare, hanno un contatto tra gli Stregoni Incappucciati che collabora con loro. Sembra una vera e propria cospirazione.~
+
+@820 = ~Gli Stregoni Incappucciati? Hmm, non è affatto una buona notizia.~
+@821 = ~E da ciò che ho sentito, sembra che abbiano dei piani anche per Baldur's Gate.~
+@822 = ~Non possiamo lasciarli agire liberamente in questo modo. Indagherò sulle loro attività a Baldur's Gate, che è più vicina alla mia zona d'azione.~
+@823 = ~Nel frattempo, ti suggerisco di proseguire le indagini nella regione. La Runa ha subito un duro colpo quando hai fatto irruzione nella sua enclave. Senza dubbio reagirà.~
+@824 = ~Fa' attenzione, <CHARNAME>.~
+@827 = ~Sì, mia signora. Lo farò.~
+@828 = ~Hai qualche idea su dove potrei cercare?~
+@829 = ~Vorrei colpire per primo, invece di aspettare una loro rappresaglia. Hai trovato qualche indizio mentre li spiavi?~ ~Vorrei colpire per prima, invece di aspettare una loro rappresaglia. Hai trovato qualche indizio mentre li spiavi?~
+
+@830 = ~Temo che tu conosca Athkatla e la regione circostante meglio di me.~
+@840 = ~Per accedere a queste enclavi usano una gemma speciale chiamata "Pietra del Ladro". Averne sempre una con te sarebbe un buon inizio. A parte questo, sono un'organizzazione molto riservata: i loro punti d'accesso potrebbero trovarsi ovunque.~
+
+@855 = ~Mi terrò in contatto. Spero di avere altre informazioni. È stato un piacere conoscerti, <CHARNAME>. Elminster non si era affatto sbagliato sul tuo conto. Buona fortuna.~
+
+@880 = ~Vedo che continui ad accompagnarti a quel nano sgradevole, figlio degli dèi. Spero sinceramente che la sua forza valga l'oro che ti costa, perché il suo pregio non sembra certo risiedere nell'intelletto.~ ~Vedo che continui ad accompagnarti a quel nano sgradevole, figlia degli dèi. Spero sinceramente che la sua forza valga l'oro che ti costa, perché il suo pregio non sembra certo risiedere nell'intelletto.~
+@881 = ~Provaci. Non puoi spaventarmi con le minacce, bruto. Non mi lascio sopraffare tanto facilmente. Ho a che fare con sciocchi come te da molto prima che tu nascessi.~
+@882 = ~Ti avverto: la magia pura della Dea di cui dispongo non è come quella a cui sei abituato. È *particolarmente* incisiva e penetrante. Potrebbe essere troppo persino per un nano della tua costituzione.~
+@883 = ~... No? Lo immaginavo. Sono lieta che ci siamo capiti.~
+@884 = ~Ti avverto fin d'ora, nano: non mettere alla prova la mia pazienza.~
+@885 = ~In una certa misura.~
+
+@890 = ~Torniamo all'argomento che ci interessa.~
+
+@900 = ~Ci incontriamo di nuovo, <CHARNAME>.~
+@901 = ~Mentre tu conducevi le tue indagini, con ottimi risultati, devo aggiungere, io ho tenuto d'occhio la Runa Contorta e i suoi associati.~
+@902 = ~A quanto pare, il loro contatto tra gli Stregoni Incappucciati è una maga elfa che si fa chiamare "Zallanora". Il nome ti dice qualcosa? Hai trascorso molto più tempo di me ad Athkatla. Se le mie fonti sono attendibili, ha un aspetto particolare.~
+@904 = ~Potrei averla incontrata, ma non ne sono sicuro. Ho conosciuto diversi Stregoni Incappucciati. Ben pochi erano amichevoli. Forse occorre un approccio più aggressivo.~ ~Potrei averla incontrata, ma non ne sono sicura. Ho conosciuto diversi Stregoni Incappucciati. Ben pochi erano amichevoli. Forse occorre un approccio più aggressivo.~
+@905 = ~È una dei loro capi. L'ho già incontrata e affrontata, ma purtroppo è fuggita. Non ha lasciato indizi.~
+@906 = ~Il nome non mi dice nulla. Ma potrei averla incontrata una volta, nel Distretto del Cimitero di Athkatla. Una maga elfa sgarbata che sapeva molte cose sul mio conto. Dovrò trovare un modo per affrontarla.~
+@907 = ~Non credo di averla mai incontrata. Ma gli Stregoni Incappucciati hanno dei rappresentanti ad Athkatla. Credo che potrei riuscire a rintracciarla.~
+@908 = ~Questo... lo sapevo già. L'ho appena affrontata. Purtroppo è fuggita senza lasciare indizi.~
+
+@910 = ~Allora significa che tutti i tuoi nemici sanno che c'è la tua mano dietro i loro insuccessi.~
+
+@920 = ~Dunque sa chi sei? Allora è solo questione di tempo prima che i tuoi nemici capiscano che sei tu il responsabile di tutti i loro insuccessi.~ ~Dunque sa chi sei? Allora è solo questione di tempo prima che i tuoi nemici capiscano che sei tu la responsabile di tutti i loro insuccessi.~
+@921 = ~Non voglio sembrare allarmista, ma i tuoi nemici sono antichi, pieni di risorse e potenti.~
+@923 = ~Quindi qual è il piano, adesso? Le piste di questa indagine si stanno esaurendo in fretta.~
+@925 = ~Temo di non poterti dare una risposta semplice. Ma sappi questo: la Runa Contorta è una cabala di lich. Di questo sono certa. E i lich sono molto pazienti. È qualcosa che si impara vivendo per secoli, e su questo parlo per esperienza.~
+@926 = ~Dopo aver ucciso i loro membri di più alto rango, devi aspettarti una rappresaglia. Non so quando, né come, ma quando colpiranno, e lo faranno... agiranno con l'assoluta certezza di poterti abbattere.~
+@927 = ~So che non è di grande aiuto, ma mi sono occorsi anni di lavoro per rintracciarli e ora sembra davvero che mi trovi davanti a un muro. Questa Zallanora, poi, non fa che rendere il mistero ancora più fitto.~
+@928 = ~Nella mia lunga vita ho imparato che i maghi dotati di una maestria pari alla sua hanno, di solito, una fama che li precede. Oppure un maestro illustre e anni di studi alle spalle. O la benedizione di un dio. Nel suo caso? Nulla di significativo.~
+@929 = ~Non mi è mai capitato di imbattermi in una perfetta sconosciuta tanto potente e influente quanto lei sembra essere. Eppure, secondo il metro degli elfi, è appena adulta. Questa storia nasconde senz'altro dell'altro, figlio degli dèi. Tutto è possibile.~ ~Non mi è mai capitato di imbattermi in una perfetta sconosciuta tanto potente e influente quanto lei sembra essere. Eppure, secondo il metro degli elfi, è appena adulta. Questa storia nasconde senz'altro dell'altro, figlia degli dèi. Tutto è possibile.~
+@930 = ~Ti farò sapere se scopro qualcosa. Abbi cura di te, <CHARNAME>.~
+
+@940 = ~Davvero? Mi sorprende. Ho fatto alcune domande in giro e ho svolto qualche indagine sul suo conto. I risultati sono inquietanti, a dir poco.~
+@945 = ~Nella mia lunga vita ho imparato che i maghi dotati di una maestria pari alla sua hanno, di solito, una fama che li precede. Oppure un maestro illustre e anni di studi alle spalle. O la benedizione di un dio. Nel suo caso? Nulla di significativo.~
+@946 = ~Non mi è mai capitato di imbattermi in una perfetta sconosciuta tanto potente e influente quanto lei sembra essere. Eppure, secondo il metro degli elfi, è appena adulta. Questa storia nasconde senz'altro dell'altro, figlio degli dèi.~ ~Non mi è mai capitato di imbattermi in una perfetta sconosciuta tanto potente e influente quanto lei sembra essere. Eppure, secondo il metro degli elfi, è appena adulta. Questa storia nasconde senz'altro dell'altro, figlia degli dèi.~
+@947 = ~Ti farò sapere se scopro qualcosa. Se decidi di affrontarla, tieni alta la guardia, <CHARNAME>. Tutto è possibile.~
+
+@960 = ~Forse, ma faresti bene a muoverti con cautela. Questa Zallanora non fa che rendere il mistero ancora più fitto.~
+
+@998 = ~Arcimaga~
+@999 = ~Maga Elfa~
+
+// Nomi, cripta e percorsi alternativi.
+
+@1000 = ~Kartak Spellseer~
+@1001 = ~Zallanora la Demilich~
+@1002 = ~Dalina~
+@1003 = ~Shoon VII~
+@1004 = ~Mago della Runa~
+@1005 = ~Laeral Silverhand~
+@1006 = ~Servitore di Kartak~
+@1007 = ~Jymahna~
+@1008 = ~Zallanora Argentresses~
+@1009 = ~Assassino Scelto della Runa~
+@1010 = ~Lich della Runa~
+@1011 = ~Zallanora~
+@1012 = ~Simulacro di Zallanora~
+
+@1100 = ~Finalmente ti ho trovato! Sapevo che prima o poi saresti venuto qui. Non è facile rintracciarti, <CHARNAME>.~ ~Finalmente ti ho trovata! Sapevo che prima o poi saresti venuta qui. Non è facile rintracciarti, <CHARNAME>.~
+@1101 = ~Mi dispiace di non averti potuto aiutare quando la Runa Contorta ti ha teso un'imboscata. Era da un po' che non avevo tue notizie, e non ho occhi e orecchie ovunque. È evidente che ti tenevano nel mirino da tempo.~
+@1105 = ~Sì. Ma ormai nessuno mi mette più i piedi in testa. La Runa Contorta l'ha imparato a proprie spese.~
+@1106 = ~Non fa niente. Ormai so cavarmela, come puoi vedere. Sono qui per un'intuizione. Qualcosa mi dice che il nostro incontro non è casuale.~
+@1107 = ~Come mai, tra tutti i posti possibili, mi hai trovato proprio sul fondo di una cripta segreta sotto il Distretto del Cimitero di Athkatla?~ ~Come mai, tra tutti i posti possibili, mi hai trovata proprio sul fondo di una cripta segreta sotto il Distretto del Cimitero di Athkatla?~
+
+@1110 = ~Li hai colpiti duramente, ma un'organizzazione composta da membri vecchi di secoli non cesserà di colpo ogni attività.~
+@1111 = ~Da quando io e te abbiamo cominciato a interferire negli affari della Runa Contorta, ho avuto tempo per pensare e riflettere su questa faccenda.~
+@1112 = ~È una preoccupazione che rimanderemo a un altro giorno.~
+
+@1120 = ~Oh, ma non c'è nulla di casuale. È passato parecchio tempo da quando io e te abbiamo cominciato a interferire negli affari della Runa Contorta, e ho avuto modo di pensare e riflettere su questa faccenda.~
+@1124 = ~Inoltre, cosa assai bizzarra, non sembra che il suo spirito abbia lasciato del tutto questo mondo, benché tu l'abbia uccisa. Eppure non è nemmeno davvero qui.~
+@1125 = ~Nulla di questa Zallanora aveva senso. Come poteva un'elfa tanto giovane, senza appoggi né addestramento, diventare all'improvviso così potente? Così ho cominciato a scavare.~
+@1126 = ~I miei incantesimi di divinazione non rivelavano nulla... finché non ti ha teso l'imboscata. Purtroppo sono arrivata troppo tardi per lo scontro, ma ho trovato il suo corpo. Finalmente avevo qualcosa: alcuni suoi capelli. Mi avrebbero permesso di risalire al suo passato.~
+@1127 = ~A quanto pare, è scomparsa undici anni fa, mentre si dirigeva a Silverymoon, per poi ricomparire qualche anno dopo nell'Amn come umile apprendista. Ora è un'arcimaga di notevole potere e influenza: un nome che non si pronuncia alla leggera tra gli Stregoni Incappucciati.~
+@1128 = ~Ho fatto domande alle mie conoscenze e, con l'aiuto di qualche incantesimo, ho scoperto che era entrata proprio in queste cripte. Molte volte. Era evidente che qui ci fosse qualcosa di importante. Ma mi mancava un pezzo del mosaico: la pietra che hai attualmente con te. Sospettavo che fosse in tuo possesso, ed è per questo che ti stavo cercando.~
+@1129 = ~Allora, che ne dici, <CHARNAME>? È finalmente ora di ottenere delle risposte?~
+@1140 = ~Sì. La pietra di Zallanora si sta già attivando. Non dovrebbe essere troppo difficile capire a cosa serva, qui dentro.~
+@1145 = ~Dopo tutti questi guai, e dopo aver rischiato di morire qualcosa come tre volte, non mi tirerò certo indietro adesso. Cosa pensi che ci aspetti?~
+@1146 = ~Subire un'imboscata dopo l'altra è stato già abbastanza seccante. Se posso metterci fine una volta per tutte, tanto meglio.~
+
+@1150 = ~Ho già perlustrato questa stanza. La parete orientale è intrisa di incantesimi accuratamente celati. Te li mostrerò.~
+@1155 = ~Qualunque cosa. Il che è piuttosto inquietante. Ma chiunque, o qualunque cosa, troveremo là dentro avrà le spalle al muro. Sei tenace, figlio degli dèi, e... be', anch'io me la cavo! Non possiamo lasciarci sfuggire una simile occasione.~ ~Qualunque cosa. Il che è piuttosto inquietante. Ma chiunque, o qualunque cosa, troveremo là dentro avrà le spalle al muro. Sei tenace, figlia degli dèi, e... be', anch'io me la cavo! Non possiamo lasciarci sfuggire una simile occasione.~
+@1160 = ~Mettiti accanto alla parete.~
+
+@1500 = ~<CHARNAME>, non puoi smettere per un secondo di comportarti come un bambino? Andiamo fino in fondo. Non vuoi sapere perché ti hanno teso quelle imboscate, e chi c'era dietro? È un'ottima occasione per ottenere delle risposte.~ ~<CHARNAME>, non puoi smettere per un secondo di comportarti come una bambina? Andiamo fino in fondo. Non vuoi sapere perché ti hanno teso quelle imboscate, e chi c'era dietro? È un'ottima occasione per ottenere delle risposte.~
+
+@1505 = ~Suppongo che tu possa avere ragione. Ma sappi questo: osservo ogni tua mossa. Non mi fido di te.~
+@1510 = ~Sono lieta che tu abbia deciso di ragionare, anche solo per un momento.~
+@1511 = ~Dunque, spettro, che posto è questo? Che cosa è successo qui, esattamente?~
+
+@1520 = ~Sparisci dalla mia vista. La tua presenza mi irrita oltre ogni limite.~
+@1530 = ~Va bene. Ti lascerò ai tuoi affari, allora. Per sempre, questa volta. Addio.~
+
+@1540 = ~Non mi aspettavo certo che cacciassi quella sgualdrina in questo modo. È stato uno spettacolo piuttosto divertente. In ogni caso, tu non mi interessi. Non mi importa più dei vostri affari mortali.~
+@1541 = ~Non ho ancora finito con te. Non hai ancora spiegato chi sei davvero, o a cosa serva questo posto.~
+@1545 = ~Potrebbero volerci secoli. O millenni... Allora riprenderò il mio progetto, elaborato con cura in un tempo quasi eterno. E tu non potrai fermarlo, perché sarai morto da molto, a quel punto.~ ~Potrebbero volerci secoli. O millenni... Allora riprenderò il mio progetto, elaborato con cura in un tempo quasi eterno. E tu non potrai fermarlo, perché sarai morta da molto, a quel punto.~
+
+@1560 = ~Un tempo fui un grande imperatore, tradito. O almeno così credono tutti. Simulai la mia morte e studiai come diventare un lich, finché non riuscii nel mio intento.~
+@1561 = ~Aspetta, tutto qui? Sei immune a qualsiasi danno, e non c'è altro?~
+
+@1565 = ~Temo di sì. Il tuo destino mi interessa ben poco.~
+@1566 = ~Qualunque cosa tu faccia d'ora in poi, per me è irrilevante. Addio.~
+
+@2000 = ~Dunque sei tu che continui a interferire negli affari della Runa. Il tuo coinvolgimento con il conciatore mi ha messo in una situazione piuttosto difficile.~
+@2001 = ~Oggi, o ti uccido o muoio. Quindi morirai tu!~
+@2005 = ~<CHARNAME>, la Runa Contorta ha offerto un Teschio d'Oro come taglia sulla tua testa. Chiunque ti uccida lo riceverà. Preparati a morire!~
+@2010 = ~Stolto, credi che la Runa Contorta non sappia della tua— Aspetta, tu non sei Koshi. Chi sei?~ ~Stolta, credi che la Runa Contorta non sappia della tua— Aspetta, tu non sei Koshi. Chi sei?~
+@2011 = ~Sono <CHARNAME>. Se è Koshi che cerchi, il suo corpo è al piano di sopra.~
+@2013 = ~Ti ringrazio per aver eliminato Koshi, ma anche il tuo nome è sulla lista. Mi dispiace, <CHARNAME>, ma non vediamo di buon occhio chi interferisce nei nostri affari.~
+
+@2018 = ~Ancora una volta, il mio intelletto superiore e straordinariamente acuto, insieme alla mia memoria prodigiosa, dovrà soccorrere voi sciocchi incapaci.~ // Edwin
+@2020 = ~Quel mago della Runa Contorta che ci ha teso un'imboscata nel Distretto del Ponte... Ho dimenticato il suo nome. Lavorava per il conciatore, vero? Ricordo che il conciatore aveva una lettera in cui si parlava di un contatto nelle Colline di Umar. Potremmo indagare lì.~
+@2021 = ~Ricordo che c'era una lettera in quell'edificio poco accogliente nel Distretto del Tempio. Parlava proprio di una Pietra del Ladro e di uno strano edificio accanto alla Locanda di Delosar, nel Distretto del Ponte. Credo che sia la nostra pista migliore, <CHARNAME>.~
+@2022 = ~Quel mago della Runa Contorta che ci ha teso un'imboscata nel Distretto del Ponte... (Ho dimenticato il suo nome... Non fatene parola.) Lavorava per il conciatore. Il conciatore aveva una lettera. La lettera parlava di un contatto nelle Colline di Umar. Ecco. (Come sempre, con questi buffoni devo pensare a tutto io.)~
+@2023 = ~C'era una lettera in quell'edificio piuttosto poco accogliente nel Distretto del Tempio. Parlava di una Pietra del Ladro e di uno strano edificio accanto alla Locanda di Delosar, nel Distretto del Ponte. Credo che questo basti a farne una "pista". (Come sempre, con questi buffoni devo pensare a tutto io.)~
+
+// Interiezioni dei compagni.
+
+@2048 = ~E anche tu chiudi quella fogna, strega nera come il carbone!~ // Korgan a Viconia
+@2049 = ~Non mi sembra molto saggio, <CHARNAME>.~ // Yoshimo
+@2050 = ~Conosci questa ragazza maleducata, <CHARNAME>? La mia ascia è pronta da un pezzo. Basta che tu lo chieda...~ // Korgan
+@2051 = ~Non mi aspettavo nulla da un membro degli Stregoni Incappucciati, eppure sono comunque deluso.~ // Anomen
+@2052 = ~Ci ignoreresti così? Minsc e Boo esigono che tu ci restituisca Imoen all'istante!~ // Minsc
+@2053 = ~Io... È inaccettabile!~ // Minsc
+@2054 = ~Siamo appena arrivati in questa città, e già lei sa di te. La cosa non mi piace.~ // Jaheira
+@2055 = ~Un colpo della mia ascia le chiuderebbe la bocca!~ // Korgan
+@2056 = ~Taci, nano. Nessuno ha chiesto la tua opinione.~ // Viconia
+@2057 = ~Uh... siamo sicuri che sia una buona idea?~ // Aerie
+@2058 = ~Bah! Era dannatamente ora, dico io!~ // Korgan
+@2059 = ~Il mio cervello ha appena sfornato un'idea: spaccargli la testa. Ci stai, <CHARNAME>?~ // Korgan
+@2060 = ~Hmph, questi stregoni si danno grandi arie, ma nella mia città non durerebbero un giorno.~ // Viconia
+@2061 = ~... E proprio quando pensavo di non poter detestare questi stregoni più di quanto già faccia.~ // Valygar
+@2062 = ~Ohhh, che tono minaccioso! Vorrebbe forse spaventarci?~ // Edwin
+@2063 = ~Sai cos'altro potrebbe trovare? La mia maledetta ascia, piantata nelle tue budella se continui così!~ // Korgan
+@2064 = ~La giustizia non conosce confini, stregone. Nemmeno per chi si nasconde dietro potenti organizzazioni come la vostra per sfuggire alla sua mano.~ // Anomen
+@2065 = ~Che vorresti insinuare, sputaincantesimi? Credi che non ti spargerei le budella per terra?!~ // Korgan
+@2066 = ~Oh, ora siamo passati alle manifestazioni pubbliche di aggressività? Esaltante!~ // Haer'Dalis
+@2067 = ~Possiamo calmarci tutti per un momento?~ // Nalia
+@2068 = ~Bah! Maghi vigliacchi, tutti quanti. Come al maledetto solito.~ // Korgan
+@2069 = ~Che cosa stiamo facendo? Attacchiamo apertamente una persona che non conosciamo e non ci ha fatto alcun torto?~ // Mazzy
+@2070 = ~Sarai tu a subire la nostra ira, creatura malvagia! Boo trema al pensiero dei gloriosi calci nel sedere che stanno per arrivare!~ // Minsc
+@2071 = ~*Ruggisce ferocemente*~ // Wilson
+@2072 = ~E lo faremo di nuovo con piacere.~ // Keldorn
+@2073 = ~Accidenti, ho fatto di nuovo qualcosa di strano e siamo finiti qui per colpa mia?~ // Neera
+@2074 = ~Stregoni Incappucciati... Ormai rabbrividisco anche solo a sentirli nominare.~ // Imoen
+@2075 = ~Dubito che qualcuno verserebbe lacrime se l'Amn fosse liberato dall'influenza di un'organizzazione tanto malvagia.~ // Jaheira
+@2076 = ~(Sussurrando) <CHARNAME>, la riconosco. Era lì quando io... quando io e Irenicus siamo stati portati a Spellhold.~ // Imoen
+@2077 = ~Aspetta, ti ho già vista! <CHARNAME>, era lì quando io e Irenicus siamo stati portati a Spellhold.~ // Imoen
+@2078 = ~... Commenti di questo genere non migliorano certo l'immagine degli Stregoni Incappucciati.~ // Nalia
+@2079 = ~Sette? Sette maledette sorelle?! Ah! Sono l'unico qui a pensare a...? Sapete... Sono più di quante riesca a tenerne sulle ginocchia!~ // Korgan
+@2080 = ~*Alza gli occhi al cielo* Ci siamo abituati. Vi prego, non badate a lui, mia signora. Proseguite.~ // Mazzy
+@2081 = ~Persino io troverei la cosa sconveniente, Korgan. E dire che dico sempre ciò che penso.~ // Haer'Dalis
+@2082 = ~Finalmente, nemici inequivocabili da abbattere in nome della giustizia. Sembra sia trascorso un minuto intero dall'ultima volta!~ // Anomen
+@2083 = ~Avete commesso la stoltezza di farvi nemico il grande Edwin Odesseiron. Presto capirete quanto sia stata pessima quell'idea.~ // Edwin
+@2084 = ~Altri loschi affari che coinvolgono gli Stregoni Incappucciati. Perché non mi sorprende?~ // Valygar
+@2085 = ~Oh, ora ricordo chi è quella maledetta elfa sgarbata. Sta per arrivarle ciò che merita. E cioè... la mia ascia!~ // Korgan
+@2086 = ~Lady Bastone Nero, vi prego di ignorare qualsiasi cosa dica questo lurido nano. State certa che non rappresenta le opinioni del nostro gruppo. È... un ubriacone! Sì, un ubriacone. Deve esserlo.~ // Jaheira
+@2087 = ~Mi sembra familiare, <CHARNAME>. Credo di averla già vista da qualche parte...~ // Jaheira
+@2088 = ~L... Lady Bastone Nero?! Io... Sono profondamente onorata di trovarmi al vostro cospetto. Siete qui in veste ufficiale di Arpista? In tal caso, impartite i vostri ordini. Jaheira, Arpista al vostro servizio.~ // Jaheira
+@2089 = ~Se una delle Sette Sorelle sta indagando sulla questione, allora la faccenda è davvero seria, <CHARNAME>!~ // Jaheira
+@2090 = ~Sono l'unica a pensare che ci siamo cacciati in qualcosa più grande di noi?~ // Aerie
+@2091 = ~Avverto una certa agitazione in lui. Quanta influenza ha quella donna tra gli Stregoni Incappucciati?~ // Cernd
+@2092 = ~Un pessimo biglietto da visita per la burocrazia.~ // Valygar
+@2093 = ~Ah! Una reazione del genere mi ricorda quella volta in cui mio cugino di secondo grado--~ // Jan
+@2094 = ~Non un'altra delle tue storie, gnomo. Non è il momento.~ // Valygar
+@2095 = ~Persino io, che vengo da terre lontane, ho sentito parlare di lei. Le Sette Sorelle sono piuttosto famose.~ // Aerie
+@2096 = ~Allora porteremo alla luce ogni loro affare e li consegneremo alla giustizia, mia signora.~ // Anomen
+@2097 = ~Sappiamo cavarcela, umana. Non temiamo nessuna rappresaglia, qualunque cosa possano escogitare.~ // Viconia
+@2098 = ~Naturalmente. Sempre spaventata, sempre vigliacca.~ // Viconia ad Aerie
+@2099 = ~Ah! Di nuovo quella maledetta mocciosa tutta arie!~ // Korgan
+@2100 = ~Un altro modo di vedere la cosa è che anche noi sappiamo chi sono i nostri nemici. Meglio un diavolo conosciuto...~ // Jan
+@2101 = ~Un modo davvero elegante di vantarsi, non c'è che dire.~ // Haer'Dalis
+@2102 = ~Non sono troppo preoccupata, onorevole arcimaga. <CHARNAME> ci ha guidati con abilità attraverso ogni ostacolo che abbiamo affrontato finora.~ // Aerie
+@2103 = ~Davvero? E come?! Boo muore dalla voglia di saperlo! Anche Minsc, ma... non quanto Boo!~ // Minsc
+@2104 = ~Oppure... Oppure! (E prendete nota, plebei.) Sono semplicemente più intelligenti. Migliori. Superiori. Come me, per esempio.~ // Edwin
+@2105 = ~Una prospettiva davvero spaventosa, mia signora. Faremo tutto il possibile per prepararci.~ // Mazzy
+@2106 = ~Non ti servirà molto per convincermi ad aiutarti a indagare sugli Stregoni Incappucciati, <CHARNAME>.~ // Valygar
+@2107 = ~Ora basta, hai passato il segno! Un'altra frecciata da quella tua brutta bocca e ti spacco in due, sgualdrina!~ // Korgan
+@2108 = ~Nessuna risposta tagliente, Korgan? Solo brontolii? Forse hai capito che la signora possiede i mezzi per sostenere ciò che afferma?~ // Mazzy
+@2109 = ~[Brontola] Maledetta stregaccia...~ // Korgan
+@2110 = ~Che cosa ci resta da fare, mia signora? Per quanto ne sappiamo, nella regione non è rimasta alcuna traccia di loro.~ // Mazzy
+@2111 = ~Be', per quel che mi importa, possono tornare a nascondersi. O nel Sottosuolo. Vediamo come se la cavano contro la mia gente.~ // Viconia
+@2112 = ~Immagino di poterla considerare un'occasione per prendermi finalmente la mia vendetta su quegli stregoni infami.~ // Valygar
+@2113 = ~Un progresso tanto rapido può avvenire soltanto con mezzi innaturali. Qui si cela un inganno, senza dubbio.~ // Cernd
+@2114 = ~Che cosa vuol dire qui ma non qui, morta ma non morta? Usa parole che possiamo capire tutti, altrimenti... Minsc si confonde!~ // Minsc
+@2115 = ~Questa è... una storia non da poco.~ // Hexxat
+@2116 = ~Farai bene a non tirarti indietro, <CHARNAME>. La questione sembra di vitale importanza.~ // Jaheira
+@2117 = ~Bleah... Non potrei mai, uh, farlo. Usare un corpo morto in quel modo. *Conato di vomito*~ // Neera
+@2118 = ~Questa storia mi suona fin troppo familiare, <CHARNAME>. Potrebbe aver rubato il potere di qualcun altro, come Irenicus ha fatto con noi?~ // Imoen
+@2119 = ~E lo dici come se fosse uno svantaggio?! Che vengano ad assaggiare il mio acciaio!~ // Korgan
+@2120 = ~Credo che dovresti spremere ancora qualcosa da quella sgualdrina argentata, <CHARNAME>. Le abbiamo reso un servizio, e in compenso è quasi l'unica qui che probabilmente sarà ancora viva quando la cosa comincerà a contare!~ // Korgan
+@2121 = ~Bah! Maledetti Arpisti! E maledetto anche tu, <CHARNAME>, per la tua debolezza!~ ~Bah! Maledetti Arpisti! E maledetta anche tu, <CHARNAME>, per la tua debolezza!~ // Korgan
+@2122 = ~Regali migliaia di monete d'oro, così, <CHARNAME>? Senza motivo?! Quando mi sono unito a questa combriccola di smidollati, mi sono forse perso il cartello "Opere di carità"?!~ // Korgan
+@2123 = ~Se ho voce in capitolo, questa follia finisce subito. Riprenditi quel maledetto oro, *e* spremi ancora qualcosa da quella sgualdrina argentata, <CHARNAME>. Le abbiamo reso un servizio, e in compenso è quasi l'unica qui che probabilmente sarà ancora viva quando la cosa comincerà a contare!~ // Korgan
+@2124 = ~Bah! Maledetti Arpisti! E maledetto anche tu, <CHARNAME>, per la tua pietà! Sento già il vomito salirmi dallo stomaco.~ ~Bah! Maledetti Arpisti! E maledetta anche tu, <CHARNAME>, per la tua pietà! Sento già il vomito salirmi dallo stomaco.~ // Korgan
+@2125 = ~Oh, cielo! Non avevo notato quel teschio fluttuante nell'angolo. Subdolo! Mi ha spaventata!~ // Neera
+@2126 = ~Ma quante cripte ci sono sotto Athkatla?~ // Nalia
+@2127 = ~Sei davvero ripugnante e abietto. Perché ci stai raccontando queste cose? Che cosa speri di guadagnarci?~ // Imoen
+@2128 = ~E a ragione. <CHARNAME>, lasciamoci alle spalle questo spettro impotente e torniamo ai nostri affari.~ // Viconia
+@2129 = ~Non occorre aggiungere altro! L'Ordine del Cuore Radioso contribuirà volentieri a questa nobile impresa.~ // Keldorn
+@2130 = ~Le nostre indagini non ci hanno aiutato molto a capire chi siano, Lady Bastone Nero. Abbiamo scoperto soltanto dove si trovano le loro enclavi. Forse le vostre ricerche sono state più fruttuose delle nostre?~ // Jaheira
+@2131 = ~Questo nano finirà per farci ammazzare tutti.~ // Nalia
+@2132 = ~Questa storia mi suona fin troppo familiare, <CHARNAME>. Potrebbe aver rubato il potere di qualcun altro, come Irenicus ha fatto con te e Imoen?~ // Jaheira
+@2133 = ~Infatti non possiamo. Sarei un ben misero cavaliere dell'Ordine del Cuore Radioso se non andassi fino in fondo. <CHARNAME>, non vorrai certo abbandonare l'impresa?~ // Keldorn
+@2134 = ~Questo posto è proprio lugubre...~ // Neera
+@2135 = ~Ora che siamo nella tana del nostro malvagio nemico, abbattiamolo una volta per tutte e liberiamo i Reami dal suo male.~ // Keldorn
+@2136 = ~Eppure, evidentemente, non abbastanza abile da competere con noi. (Con me.)~ // Edwin
+@2137 = ~Che va blaterando adesso questa sgualdrina? Un oggetto di immenso potere? E forse di immensa ricchezza? Ti ascolto!~ // Korgan
+@2138 = ~<CHARNAME>, non le lascerai distruggere questo, ehm, libro dei... maledetti cavalli cornuti? Quel che è. Ci scommetto che vale una fortuna!~ // Korgan
+@2139 = ~Non puoi prendere sul serio una proposta simile.~ // Jaheira
+@2140 = ~Questo è... davvero inquietante.~ // Neera
+@2141 = ~Sì, sì, questa l'abbiamo già sentita. Molte volte.~ // Edwin
+@2142 = ~La ragazza è ancora viva!~ // Mazzy
+@2143 = ~E gli Stregoni Incappucciati sono davvero vendicativi. Credetemi.~ // Valygar
+@2144 = ~Sempre cortese e generosa, Lady Bastone Nero.~ // Jaheira
+@2145 = ~È stato un immenso onore, mia signora. Tutto grazie al vostro aiuto, naturalmente. <CHARNAME>, è stato un lavoro davvero ben fatto.~ // Jaheira
+@2146 = ~E tu, Korgan, puoi andare nei Nove Inferi, per quanto mi riguarda. È tutto ciò che merita un individuo vuoto, egoista e privo di ogni moralità come te.~ // Jaheira
+@2147 = ~Ah ah! Finalmente cominci a mordere, invece di abbaiare, mezza sgualdrina?! Sarei fiero di te, se non ti disprezzassi così dannatamente tanto.~ // Korgan
+@2148 = ~*Sospira* È impossibile spuntarla con questo idiota!~ // Jaheira
+@2149 = ~Sei davvero uno stolto, <CHARNAME>. Voglio che tu lo sappia.~ ~Sei davvero una stolta, <CHARNAME>. Voglio che tu lo sappia.~ // Jaheira
+@2150 = ~Non è stato un po'... deludente, come finale?~ // Imoen
+@2151 = ~Quindi stava davvero cercando di rubarle l'anima. Perché tutti i malvagi cercano sempre di farlo?~ // Imoen
+@2152 = ~Il destino ti raggiungerà, spirito. Non si possono compiere simili atrocità e restare impuniti per sempre. La natura trova sempre il modo di ristabilire l'equilibrio... se le si concede abbastanza tempo.~ // Cernd
+@2153 = ~Continua pure a nasconderti dietro la tua potente organizzazione, stregone, da quel vigliacco che sei.~ // Anomen
+@2154 = ~Mi hai incontrato in un momento della mia vita in cui desidero soltanto spaccare qualcosa senza pensare, canaglia. Finalmente ho un bersaglio degno della mia furia!~ // Anomen
+@2155 = ~Allora ci prepareremo ad affrontarli. Non vedo l'ora di un vero scontro, contro veri malfattori.~ // Anomen
+@2156 = ~Era ora che ricavassimo qualcosa da questo pasticcio. Bel lavoro, <CHARNAME>. Avrei fatto lo stesso.~ // Dorn
+@2157 = ~Tutto è bene quel che finisce bene, a quanto pare. Sarà un'ottima base per il mio prossimo racconto, miei passerotti! Un dramma ricco di colpi di scena e svolte inattese, proprio il genere di storie che prediligo! Mancava soltanto l'amore... quello travolgente, naturalmente!~ // Haer'Dalis
+@2158 = ~Un'altra bella giornata di gloriosi calci nel sedere, con i malvagi spediti a riposare per sempre!~ // Minsc
+@2159 = ~Povera donna. Che sfortunata coincidenza l'ha condannata a una simile disgrazia! Sono felice che alla fine siamo riusciti ad aiutarla e a rimettere le cose a posto.~ // Aerie
+@2160 = ~Fa stare bene, <CHARNAME>. Sapere... che abbiamo aiutato qualcuno con un destino tanto simile al nostro, capisci? Ora tocca a noi. Mi chiedo se riusciremo a riprenderci le nostre anime. La strada davanti a noi è tortuosa, incerta e diversa dalla sua, ma... Sì, questo mi dà fiducia! Credo che possiamo farcela.~ // Imoen
+
+// Edwin ed Edwina; ostilità verso Laeral; Palazzo del Governo.
+
+@2200 = ~(Che donna irritante, di un'acutezza insopportabile.) Più o meno. Ho avuto dei dissapori con loro.~ // Edwin / Edwina
+@2201 = ~No! Perché deve sempre succedere a me? Qui non c'è nulla da vedere. Assolutamente nulla!~ // Edwina
+@2202 = ~(Maledizione, è peggio del previsto!) Lasciami in pace, donna!~ // Edwina
+@2203 = ~Aspetta. (Dovrei umiliarmi fino a questo punto?)~ // Edwina
+@2204 = ~(Devo.) Per caso, conosceresti un incantesimo in grado di correggere la situazione? Dopotutto, la tua divinità protettrice è la Dea della Magia.~ // Edwina
+@2205 = ~("Bambina"? Osa sminuirmi così apertamente? Me, il grande Edwin?! Bah!) Allora... Dimmi chi devo implorare! La tua dea? Non posso continuare a vivere... così!~ // Edwina
+@2206 = ~(Oh, quanto ODIO questa situazione! E questo... posto! E questo corpo!)~ // Edwina
+@2207 = ~Il grande Edwin è ben più di un semplice "Thayan". Thay non mi interessa. (Come se potessi mai prendere sul serio un ordine tanto ridicolo...)~
+@2208 = ~Edwin! Lasceresti passare un'occasione simile? Non è da te. È un'Eletta di Mystra! Se qualcuno può aiutarti, è lei!~ // Aerie a Edwina
+@2209 = ~All'improvviso ti importa, Aerie? Per carità! Il mio aspetto ti serve soltanto per divertirti!~ // Edwina
+@2210 = ~Edwin, ultimamente le tue buffe trovate non smettono mai di divertirmi. Sto prendendo appunti, amica mia! Per un'opera teatrale, naturalmente.~ // Haer'Dalis a Edwina
+@2211 = ~Faresti bene ad ascoltare questo avvertimento, tu che pratichi l'Evocazione. Non viene fatto a cuor leggero, credimi.~ // Jaheira a Edwin / Edwina
+@2212 = ~Jaheira, per favore. Stanno parlando gli adulti. (Quella druida idiota non vede forse la differenza di abilità e potere tra noi?)~ // Edwin
+@2213 = ~Oh, per favore... Dicci qualcosa che non sappiamo già.~ // Edwin
+@2214 = ~Ah, sì, la Regina Strega dell'Aglarond. Ogni mago di Thay degno di questo nome ha sentito parlare di lei. Ci insegnano a temerla. Ma simili assurdità sono ben al di sotto della mia considerazione.~ // Edwin / Edwina
+
+@2248 = ~Proprio così, vigliacca. Sai di non poterci tenere testa! Bah-ah! Questa sa solo abbaiare, ma non morde!~ // Korgan
+@2249 = ~No! <CHARNAME>, che cosa hai fatto?! Lady Bastone Nero, questo non è-- Ugh!! Non può succedere davvero!~ // Jaheira
+@2250 = ~Te la dai a gambe da quella vigliacca che sei, eh, sgualdrina? Proprio così, sai di non poterci tenere testa! Bah-ah! Questa sa solo abbaiare, ma non morde!~ // Korgan
+@2251 = ~Che cosa stiamo facendo? Attacchiamo apertamente una figura tanto illustre? Sei completamente pazzo, <CHARNAME>? Che cosa potremmo mai guadagnare facendocela nemica?~ ~Che cosa stiamo facendo? Attacchiamo apertamente una figura tanto illustre? Sei completamente pazza, <CHARNAME>? Che cosa potremmo mai guadagnare facendocela nemica?~ // Mazzy
+@2252 = ~Minsc è confuso, e anche se Boo non è mai confuso... anche Boo è confuso! La signora ci piaceva, e ora la odiamo? Spiegati!~ // Minsc
+@2253 = ~Nemmeno la mia profonda avversione per i maghi riesce a soffocare la sensazione che tutto questo sia semplicemente sbagliato. Questa signora non ci ha fatto alcun torto.~ // Valygar
+@2254 = ~Soltanto uno sciocco la attaccherebbe. La grandezza riconosce la grandezza. Neppure una persona della mia levatura oserebbe tentare una cosa simile. (Per ora...) (Eppure, in segreto, mi fa piacere che se ne vada.)~ // Edwin
+@2255 = ~Io... Non riesco a crederci. Mi metti in una posizione impossibile, <CHARNAME>. Cerca di capire: sono gli Arpisti ad aver fatto di me ciò che sono, e lei è una mia superiore. È un tradimento gravissimo. Lasciami... lasciami stare.~ // Jaheira
+@2256 = ~Mi sono distratta di nuovo? Abbiamo attaccato la signora gentile? Perché?~ // Neera
+@2257 = ~Ugh! Che cosa vi prende? Non ha fatto nulla per aiutarci! Siamo perfettamente in grado di risolvere questa faccenda da soli. Deboli...~ // Viconia
+@2258 = ~È un'azione davvero disonorevole, <CHARNAME>. Sei fortunato che lei la prenda con tanta calma, altrimenti avrei potuto schierarmi al suo fianco.~ ~È un'azione davvero disonorevole, <CHARNAME>. Sei fortunata che lei la prenda con tanta calma, altrimenti avrei potuto schierarmi al suo fianco.~ // Keldorn
+@2259 = ~<CHARNAME>, non ti sembra un po'... ingiustificato?~ // Cernd
+
+@2261 = ~Sei incredibile, <CHARNAME>. Lady Bastone Nero, vi prego, possiamo ancora--~ // Jaheira
+@2262 = ~Ah! Finalmente hai quel che ti meriti, sgualdrina!~ // Korgan
+@2263 = ~Sì, così va molto meglio! Hai manovrato la faccenda da maestro, <CHARNAME>.~ ~Sì, così va molto meglio! Hai manovrato la faccenda da maestra, <CHARNAME>.~ // Korgan
+@2264 = ~Ho la sensazione che da qualche parte abbiamo preso la strada sbagliata. Credetemi, in questo sono una maestra.~ // Neera
+@2265 = ~<CHARNAME>... che cosa hai fatto?~ // Mazzy
+@2266 = ~Io... Non mi sento molto bene. Mi sembra tutto sbagliato. Ma che cosa stiamo facendo?~ // Aerie
+@2267 = ~Non riesco a non provare pena per questa Zallanora, <CHARNAME>. Le hanno rubato l'anima, proprio come a noi, capisci? Non avremmo dovuto almeno provare a rimediare? Accidenti, non riesco a togliermi questa sensazione... che avremmo dovuto fare qualcosa.~ // Imoen
+@2268 = ~Non riesco a non provare pena per questa Zallanora, <CHARNAME>. Le hanno rubato l'anima, proprio come a noi, capisci? Accidenti, vorrei che avessimo potuto fare qualcosa. Qualunque cosa.~ // Imoen
+
+@3000 = ~Sto cercando una certa esponente degli Stregoni Incappucciati di nome "Zallanora". Forse sai dove posso trovarla?~
+@3001 = ~Dovrai parlare con Corneil, il loro rappresentante. Io qui rappresento soltanto il Consiglio.~
+@3002 = ~Sto cercando una certa esponente degli Stregoni Incappucciati di nome "Zallanora". Forse sai dove posso trovarla?~
+@3003 = ~Mi dispiace, ma non posso aiutarti. Questi stregoni possono fare praticamente tutto ciò che vogliono, qui. Forse il magistrato potrebbe esserti d'aiuto. Buona fortuna.~
+@3004 = ~Ho trovato questa lettera, che coinvolge un membro della vostra organizzazione in affari davvero loschi.~
+@3005 = ~Sai dove potrei trovare un'esponente degli Stregoni Incappucciati che si fa chiamare "Zallanora"?~
+@3006 = ~Sto cercando un'esponente degli Stregoni Incappucciati che si fa chiamare "Zallanora". Ne hai sentito parlare?~
+@3007 = ~Porto cattive notizie: sembra che qualcuno nella vostra organizzazione abbia intenzioni tutt'altro che buone. Hai mai sentito parlare della Runa Contorta?~
+@3008 = ~No, non ne ho sentito parlare, e non mi interessano le tue accuse. Hai idea di quante persone irrompano qui accusandoci di questo o di quello? Ora smetti di farmi perdere tempo e renditi utile.~
+@3010 = ~Non mi interessano le tue ridicole accuse. Questa pergamena potrebbe essere falsa. Lasciami indovinare: adesso mi chiederai uno sconto sulla licenza per lanciare incantesimi?~
+@3011 = ~E allora? Questa pergamena potrebbe essere stata falsificata senza difficoltà. Il dominio sull'Amn? Dici sul serio? Vattene.~
+@3020 = ~Oh, cielo. Non si "trova" qualcuno come Zallanora. È lei a trovare te.~
+@3021 = ~Ho informazioni attendibili sul fatto che stia tramando qualcosa di losco.~
+@3022 = ~Ha cercato di uccidermi, e credo che sia coinvolta in un grave complotto contro il regno dell'Amn.~
+@3023 = ~Non ti sono dovute né spiegazioni né informazioni. Ora vattene, per favore.~
+
+@3030 = ~Davvero? E come avresti ottenuto queste informazioni?~
+@3031 = ~Grazie alle mie... ehm, indagini personali.~
+@3032 = ~Certo. Sappi che Zallanora è la più alta in grado tra i nostri Tutori Incappucciati. Il mio consiglio è questo: stalle lontano. Non vorrai attirare la sua ira, credimi. Addio.~ ~Certo. Sappi che Zallanora è la più alta in grado tra i nostri Tutori Incappucciati. Il mio consiglio è questo: stalle lontana. Non vorrai attirare la sua ira, credimi. Addio.~
+@3033 = ~Sappi che Zallanora è la più alta in grado tra i nostri Tutori Incappucciati. Il mio consiglio è questo: stalle lontano. Non vorrai attirare la sua ira, credimi. Addio.~ ~Sappi che Zallanora è la più alta in grado tra i nostri Tutori Incappucciati. Il mio consiglio è questo: stalle lontana. Non vorrai attirare la sua ira, credimi. Addio.~
+@3035 = ~Ucciderti, eh? Sei tanto fastidioso che ne capisco benissimo il motivo.~ ~Ucciderti, eh? Sei tanto fastidiosa che ne capisco benissimo il motivo.~
+@3036 = ~Le minacce di questo nano sono credibili? Perché non sembrano esserlo.~
+@3037 = ~Minacce esplicite, qui, in questo ufficio? Sei proprio incivile quanto il tuo aspetto ripugnante lasciava supporre, nano.~
